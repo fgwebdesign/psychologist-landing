@@ -157,7 +157,16 @@
       "subjectPlaceholder": "¿De qué se trata?",
       "message": "Mensaje",
       "messagePlaceholder": "¿Cómo puedo ayudarte?",
-      "submit": "Enviar Mensaje"
+      "submit": "Enviar Mensaje",
+      "submitting": "Enviando...",
+      "success": {
+        "title": "Mensaje Enviado",
+        "description": "Gracias por tu mensaje. Me pondré en contacto contigo lo antes posible."
+      },
+      "error": {
+        "title": "Error",
+        "description": "Hubo un error al enviar tu mensaje. Por favor, inténtalo de nuevo más tarde."
+      }
     },
     "info": {
       "address": {

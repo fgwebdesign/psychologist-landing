@@ -7,16 +7,76 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Textarea } from "@/components/ui/textarea"
-import { Phone, Mail, Clock, Linkedin } from "lucide-react"
+import { Phone, Mail, Clock, Linkedin, Loader2 } from "lucide-react"
 import { useState, useEffect } from "react"
+import { useToast } from "@/components/ui/use-toast"
+import { cn } from "@/lib/utils"
 
 export default function Contact() {
   const t = useTranslations("Contact")
   const [mounted, setMounted] = useState(false)
+  const { toast } = useToast()
+  const [isSubmitting, setIsSubmitting] = useState(false)
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    subject: "",
+    message: ""
+  })
   
   useEffect(() => {
     setMounted(true)
   }, [])
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault()
+    setIsSubmitting(true)
+
+    try {
+      const response = await fetch('/api/send', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      })
+
+      const data = await response.json()
+
+      if (response.ok) {
+        toast({
+          title: t("form.success.title"),
+          description: t("form.success.description"),
+          className: "bg-green-50 border-green-200",
+        })
+        // Reset form
+        setFormData({
+          name: "",
+          email: "",
+          subject: "",
+          message: ""
+        })
+      } else {
+        throw new Error(data.error || 'Something went wrong')
+      }
+    } catch (error) {
+      toast({
+        title: t("form.error.title"),
+        description: t("form.error.description"),
+        variant: "destructive",
+      })
+    } finally {
+      setIsSubmitting(false)
+    }
+  }
+
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    const { name, value } = e.target
+    setFormData(prev => ({
+      ...prev,
+      [name]: value
+    }))
+  }
 
   const contactInfo = [
     {
@@ -81,27 +141,74 @@ export default function Contact() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <Card>
+            <Card className="overflow-hidden">
               <CardContent className="p-6">
-                <form className="space-y-6">
+                <form onSubmit={handleSubmit} className="space-y-6">
                   <div className="space-y-2">
-                    <Label htmlFor="name">{t("form.name")}</Label>
-                    <Input id="name" placeholder={t("form.namePlaceholder")} />
+                    <Label htmlFor="name" className="text-sm font-medium">{t("form.name")}</Label>
+                    <Input 
+                      id="name"
+                      name="name"
+                      value={formData.name}
+                      onChange={handleInputChange}
+                      placeholder={t("form.namePlaceholder")}
+                      className="h-11 transition-colors focus:border-primary"
+                      required
+                    />
                   </div>
                   <div className="space-y-2">
-                    <Label htmlFor="email">{t("form.email")}</Label>
-                    <Input id="email" type="email" placeholder={t("form.emailPlaceholder")} />
+                    <Label htmlFor="email" className="text-sm font-medium">{t("form.email")}</Label>
+                    <Input 
+                      id="email"
+                      name="email"
+                      type="email"
+                      value={formData.email}
+                      onChange={handleInputChange}
+                      placeholder={t("form.emailPlaceholder")}
+                      className="h-11 transition-colors focus:border-primary"
+                      required
+                    />
                   </div>
                   <div className="space-y-2">
-                    <Label htmlFor="subject">{t("form.subject")}</Label>
-                    <Input id="subject" placeholder={t("form.subjectPlaceholder")} />
+                    <Label htmlFor="subject" className="text-sm font-medium">{t("form.subject")}</Label>
+                    <Input 
+                      id="subject"
+                      name="subject"
+                      value={formData.subject}
+                      onChange={handleInputChange}
+                      placeholder={t("form.subjectPlaceholder")}
+                      className="h-11 transition-colors focus:border-primary"
+                      required
+                    />
                   </div>
                   <div className="space-y-2">
-                    <Label htmlFor="message">{t("form.message")}</Label>
-                    <Textarea id="message" placeholder={t("form.messagePlaceholder")} rows={5} />
+                    <Label htmlFor="message" className="text-sm font-medium">{t("form.message")}</Label>
+                    <Textarea 
+                      id="message"
+                      name="message"
+                      value={formData.message}
+                      onChange={handleInputChange}
+                      placeholder={t("form.messagePlaceholder")}
+                      className="min-h-[120px] transition-colors focus:border-primary resize-y"
+                      required
+                    />
                   </div>
-                  <Button type="submit" className="w-full">
-                    {t("form.submit")}
+                  <Button 
+                    type="submit" 
+                    className={cn(
+                      "w-full h-11 text-base font-medium transition-all duration-200",
+                      isSubmitting ? "opacity-90" : "hover:opacity-90"
+                    )}
+                    disabled={isSubmitting}
+                  >
+                    {isSubmitting ? (
+                      <div className="flex items-center gap-2">
+                        <Loader2 className="h-4 w-4 animate-spin" />
+                        <span>{t("form.submitting")}</span>
+                      </div>
+                    ) : (
+                      t("form.submit")
+                    )}
                   </Button>
                 </form>
               </CardContent>
@@ -118,14 +225,19 @@ export default function Contact() {
                 transition={{ duration: 0.6, delay: index * 0.1 }}
               >
                 <Card 
-                  className={`${item.hasAction ? 'cursor-pointer hover:border-primary transition-colors' : ''}`}
+                  className={cn(
+                    "group transition-all duration-200",
+                    item.hasAction && "cursor-pointer hover:border-primary hover:shadow-md"
+                  )}
                   onClick={() => handleCardClick(item)}
                 >
                   <CardContent className="p-4 flex items-start space-x-4">
-                    <div className="mt-1">{item.icon}</div>
+                    <div className="mt-1 transition-colors group-hover:text-primary">{item.icon}</div>
                     <div>
-                      <h3 className="font-medium">{index === 2 ? item.title : t(item.title)}</h3>
-                      <p className="text-muted-foreground">{item.details}</p>
+                      <h3 className="font-medium text-foreground/90 group-hover:text-primary transition-colors">
+                        {index === 2 ? item.title : t(item.title)}
+                      </h3>
+                      <p className="text-muted-foreground text-sm mt-1">{item.details}</p>
                     </div>
                   </CardContent>
                 </Card>
