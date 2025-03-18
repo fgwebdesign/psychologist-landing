@@ -17,7 +17,7 @@ export default function About() {
   const stats = [
     { number: t("stats.years.number"), text: t("stats.years.text"), icon: Award },
     { number: t("stats.clients.number"), text: t("stats.clients.text"), icon: Users },
-    { number: t("stats.specialties.number"), text: t("stats.specialties.text"), icon: Star },
+    { number: t("stats.hours.number"), text: t("stats.hours.text"), icon: Brain },
   ]
 
   return (
@@ -46,13 +46,13 @@ export default function About() {
             className="space-y-8"
           >
             {/* Contenedor de la imagen */}
-            <div className="relative w-full max-w-md mx-auto aspect-[3/4] rounded-2xl overflow-hidden">
+            <div className="relative w-full max-w-md mx-auto aspect-[4/5] rounded-2xl overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-b from-blue-500/10 to-transparent rounded-2xl z-0" />
               <Image
                 src="/martin.png"
                 alt="Martin Schweizer - Clinical Psychologist"
                 fill
-                className="object-cover object-top z-10"
+                className="object-cover object-[center_35%] z-10"
                 priority
               />
               <div className="absolute inset-0 border-2 border-blue-400/20 rounded-2xl z-20" />

@@ -31,9 +31,9 @@
         "number": "500+",
         "text": "Clients Served"
       },
-      "specialties": {
-        "number": "5+",
-        "text": "Specializations"
+      "hours": {
+        "number": "2000+",
+        "text": "Clinical Practice Hours"
       }
     }
   },
@@ -185,11 +185,14 @@
       "couples": "Couples Therapy",
       "family": "Family Therapy",
       "online": "Online Therapy",
+      "business": "Business Services",
       "resources": "Resources",
       "blog": "Blog",
+      "selfHelp": "Self-Help Guides",
       "faq": "FAQ",
       "testimonials": "Testimonials",
       "research": "Research",
+      "publications": "Publications",
       "legal": "Legal",
       "privacy": "Privacy Policy",
       "terms": "Terms of Service",
@@ -213,6 +216,45 @@
     "title": "Contact via WhatsApp",
     "uruguay": "Uruguay",
     "uk": "UK"
+  },
+  "Experience": {
+    "title": "Professional Experience",
+    "subtitle": "A journey through my professional career in clinical psychology",
+    "ippm": {
+      "title": "Institute of Psychiatry and Psychology of Montevideo",
+      "date": "2022 - 2025",
+      "description": "Clinical Psychologist for adults and Clinical Manager, leading therapeutic teams and providing specialized psychological care."
+    },
+    "private": {
+      "title": "International Private Practice",
+      "date": "2020 - Present",
+      "description": "Online and in-person therapy with patients from South America, China, United Kingdom, South Africa, and USA, adapting therapeutic approaches to diverse cultures."
+    },
+    "shp": {
+      "title": "Single Homeless Project, London",
+      "date": "2023",
+      "description": "Psychologist and Psychologically Informed Environment (PIE) Consultant, working with vulnerable populations and developing intervention strategies."
+    },
+    "tresCruces": {
+      "title": "Tres Cruces Clinical Center, Montevideo",
+      "date": "2011 - 2017",
+      "description": "Home-based and environmental psychological support for patients, facilitating treatment accessibility and adapting interventions to individual contexts."
+    }
+  },
+  "Publications": {
+    "title": "Publications",
+    "subtitle": "Access my academic publications and research articles",
+    "downloadButton": "Download PDF",
+    "papers": {
+      "first": {
+        "title": "Psychological Interventions in the Treatment of Severe Mental Disorders",
+        "authors": "Martin Schweizer, et al.",
+        "date": "2023",
+        "journal": "Uruguay Journal of Psychiatry",
+        "abstract": "This article presents a systematic review of the most effective psychological interventions in the treatment of severe mental disorders, with a special focus on the integration of cognitive-behavioral therapy and other therapeutic modalities.",
+        "link": "Publicacion Revista de Psiquiatria Uruguay.pdf"
+      }
+    }
   }
 }
 

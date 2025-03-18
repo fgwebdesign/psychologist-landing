@@ -26,7 +26,7 @@ export default function Footer() {
     { 
       title: "links.resources", 
       items: [
-        { key: "links.blog", href: "#" },
+        { key: "links.publications", href: "/publications" },
         { key: "links.faq", href: "#" },
         { key: "links.testimonials", href: "#" },
         { key: "links.research", href: "#" }

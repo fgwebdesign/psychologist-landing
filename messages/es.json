@@ -31,9 +31,9 @@
         "number": "500+",
         "text": "Clientes Atendidos"
       },
-      "specialties": {
-        "number": "5+",
-        "text": "Especializaciones"
+      "hours": {
+        "number": "2000+",
+        "text": "Horas de Práctica Clínica"
       }
     }
   },
@@ -188,12 +188,15 @@
       "individual": "Terapia Individual",
       "couples": "Terapia de Parejas",
       "family": "Terapia Familiar",
-      "online": "Terapia en Línea",
+      "online": "Terapia Online",
+      "business": "Servicios Empresariales",
       "resources": "Recursos",
       "blog": "Blog",
+      "selfHelp": "Guías de Autoayuda",
       "faq": "Preguntas Frecuentes",
       "testimonials": "Testimonios",
       "research": "Investigación",
+      "publications": "Publicaciones",
       "legal": "Legal",
       "privacy": "Política de Privacidad",
       "terms": "Términos de Servicio",
@@ -213,6 +216,45 @@
     "title": "Contactar por WhatsApp",
     "uruguay": "Uruguay",
     "uk": "Reino Unido"
+  },
+  "Experience": {
+    "title": "Experiencia Profesional",
+    "subtitle": "Un recorrido por mi trayectoria profesional en el campo de la psicología clínica",
+    "ippm": {
+      "title": "Instituto de Psiquiatría y Psicología de Montevideo",
+      "date": "2022 - 2025",
+      "description": "Psicólogo Clínico para adultos y Clinical Manager, liderando equipos terapéuticos y proporcionando atención psicológica especializada."
+    },
+    "private": {
+      "title": "Práctica Privada Internacional",
+      "date": "2020 - Presente",
+      "description": "Terapia online y presencial con pacientes de América del Sur, China, Reino Unido, Sudáfrica y EE.UU., adaptando enfoques terapéuticos a diversas culturas."
+    },
+    "shp": {
+      "title": "Single Homeless Project, Londres",
+      "date": "2023",
+      "description": "Psicólogo y Consultor en Entorno Psicológicamente Informado (PIE), trabajando con poblaciones vulnerables y desarrollando estrategias de intervención."
+    },
+    "tresCruces": {
+      "title": "Centro Clínico Tres Cruces, Montevideo",
+      "date": "2011 - 2017",
+      "description": "Apoyo psicológico domiciliario y en el entorno de los pacientes, facilitando la accesibilidad al tratamiento y adaptando las intervenciones al contexto individual."
+    }
+  },
+  "Publications": {
+    "title": "Publicaciones",
+    "subtitle": "Acceda a mis publicaciones académicas y artículos de investigación",
+    "downloadButton": "Descargar PDF",
+    "papers": {
+      "first": {
+        "title": "Intervenciones psicológicas en el tratamiento de trastornos mentales graves",
+        "authors": "Martin Schweizer, et al.",
+        "date": "2023",
+        "journal": "Revista de Psiquiatría del Uruguay",
+        "abstract": "Este artículo presenta una revisión sistemática de las intervenciones psicológicas más efectivas en el tratamiento de trastornos mentales graves, con un enfoque especial en la integración de la terapia cognitivo-conductual y otras modalidades terapéuticas.",
+        "link": "Publicacion Revista de Psiquiatria Uruguay.pdf"
+      }
+    }
   }
 }
 

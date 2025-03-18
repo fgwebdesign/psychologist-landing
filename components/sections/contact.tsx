@@ -22,14 +22,14 @@ export default function Contact() {
     {
       icon: <Phone className="h-5 w-5 text-primary" />,
       title: "info.phone.title",
-      details: "WhatsApp: +598 92 543 668, +447821848437",
+      details: t("info.phone.details"),
       hasAction: false,
       action: null,
     },
     {
       icon: <Mail className="h-5 w-5 text-primary" />,
       title: "info.email.title",
-      details: "contact@martinschweizer.com",
+      details: t("info.email.details"),
       hasAction: false,
       action: null,
     },
@@ -47,7 +47,7 @@ export default function Contact() {
     {
       icon: <Clock className="h-5 w-5 text-primary" />,
       title: "info.hours.title",
-      details: "Lunes-Viernes: 9am-7pm, Sábado: 10am-2pm",
+      details: t("info.hours.details"),
       hasAction: false,
       action: null,
     },
