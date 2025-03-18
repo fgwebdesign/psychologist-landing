@@ -31,7 +31,7 @@ export default function About() {
           transition={{ duration: 0.6 }}
           variants={fadeIn}
         >
-          <h2 className="text-3xl md:text-4xl font-bold text-blue-400 mb-4 font-heading tracking-tight">{t("title")}</h2>
+          <h2 className="text-3xl md:text-5xl font-bold text-blue-400 mb-4 tracking-tight">{t("title")}</h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto font-light">{t("subtitle")}</p>
         </motion.div>
 
