@@ -54,6 +54,7 @@ export default function About() {
                 fill
                 className="object-cover object-[center_35%] z-10"
                 priority
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               />
               <div className="absolute inset-0 border-2 border-blue-400/20 rounded-2xl z-20" />
             </div>

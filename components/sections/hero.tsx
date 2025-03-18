@@ -39,10 +39,10 @@ export default function Hero() {
         <div className="flex-1 mt-16 md:mt-0 relative z-10">
           <div className="relative w-full max-w-lg mx-auto h-[400px] md:h-[500px]">
             {/* Main image with custom shape */}
-            <div className="relative w-full h-full rounded-2xl overflow-hidden">
+            <div className="relative w-full h-full rounded-2xl overflow-hidden" style={{ position: 'relative' }}>
               <div className="absolute inset-0 bg-gradient-to-tr from-blue-600/20 to-blue-400/10 rounded-2xl z-0" />
               
-              <picture>
+              <picture style={{ position: 'relative', display: 'block', height: '100%' }}>
                 <source 
                   srcSet="/optimized/intro1-optimized.webp" 
                   type="image/webp" 
