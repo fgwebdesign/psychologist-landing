@@ -1,0 +1,218 @@
+{
+  "Hero": {
+    "title": "Professional Psychological Support",
+    "subtitle": "Helping you navigate life's challenges with evidence-based therapy and compassionate care",
+    "bookButton": "Book a Session",
+    "learnMoreButton": "Learn More"
+  },
+  "About": {
+    "title": "About Me",
+    "subtitle": "Clinical Psychologist specialized in evidence-based therapy and integral wellbeing",
+    "greeting": "Hello! I'm Martin Schweizer",
+    "intro": "I am a Clinical Psychologist with over 13 years of experience in mental health. Since my beginnings in Psychology, I have been passionate about understanding the complexity of the human mind and applying evidence-based strategies to support people in their personal development and wellbeing. Throughout my career, I have worked with individuals from different parts of the world, helping them face emotional, behavioral, and relational challenges.",
+    "experience": {
+      "title": "NHS Experience",
+      "description": "My professional experience includes a significant period at the UK's National Health Service (NHS), where I worked at the Merton Integrated Recovery Hub (IRH) and the Community Rehab Team. At Merton IRH, I was part of the recovery and support team, providing structured psychological interventions to patients and caregivers. Subsequently, in the Community Rehab Team, I worked on rehabilitating patients transitioning from long-term mental health units to the community, designing intervention plans to facilitate their integration."
+    },
+    "approach": {
+      "title": "Therapeutic Approach",
+      "description": "My therapeutic approach is based on Cognitive Behavioral Therapy (CBT), combined with analytical psychology tools, always adapting to each person's individual needs. Through a collaborative process, I help my clients identify thought and behavior patterns that may be limiting their wellbeing, promoting practical strategies to generate meaningful and sustainable changes."
+    },
+    "mission": {
+      "title": "My Mission",
+      "description": "My mission is to provide a safe and constructive space to explore challenges, discover opportunities, and ultimately promote positive changes. I invite you to learn more about my services and take the first step towards integral wellbeing, whether individually or within your company."
+    },
+    "stats": {
+      "years": {
+        "number": "13+",
+        "text": "Years of Experience"
+      },
+      "clients": {
+        "number": "500+",
+        "text": "Clients Served"
+      },
+      "specialties": {
+        "number": "5+",
+        "text": "Specializations"
+      }
+    }
+  },
+  "Services": {
+    "title": "My Services",
+    "subtitle": "Comprehensive psychological services tailored to your unique needs",
+    "forIndividuals": "For Individuals",
+    "forCompanies": "For Companies",
+    "locationNote": "All services are provided online. Face to face services for individuals are only provided in Moscow, Russia at the moment. Face to face workshops for companies are provided in Europe and Asia.",
+    "individual": {
+      "psychotherapy": {
+        "title": "Psychotherapy",
+        "description": "Evidence-based psychological treatment for a range of mental health concerns.",
+        "items": {
+          "anxiety": "Anxiety Disorders",
+          "depression": "Depression",
+          "ocd": "Obsessive-Compulsive Disorder (OCD)",
+          "emotional": "Emotional Regulation Difficulties",
+          "mood": "Mood Disorders",
+          "schizophrenia": "Positive Symptoms of Schizophrenia (Hallucinations & Delusions)",
+          "ptsd": "Post-Traumatic Stress Disorder (PTSD)"
+        }
+      },
+      "psychodiagnosis": {
+        "title": "Psychodiagnosis",
+        "description": "Comprehensive psychological assessments to evaluate cognitive, emotional, and behavioral functioning, guiding diagnosis and personalized treatment recommendations."
+      },
+      "counseling": {
+        "title": "Counseling",
+        "description": "Support and guidance for individuals looking to improve various aspects of their lives.",
+        "items": {
+          "personal": "Personal Development",
+          "decision": "Decision-making skills",
+          "social": "Social skills & communication",
+          "resilience": "Resilience & emotional well-being",
+          "professional": "Professional growth",
+          "stress": "Stress Management"
+        }
+      }
+    },
+    "business": {
+      "reflective": {
+        "title": "Reflective Practice",
+        "description": "A structured and facilitated approach to enhancing workplace decision-making, team dynamics, and leadership effectiveness. Through guided sessions, employees and teams analyze workplace challenges, project outcomes, and interpersonal dynamics to foster continuous improvement and strategic thinking."
+      },
+      "workshops": {
+        "title": "Workshops & Webinars",
+        "description": "We offer customized workshops and training sessions designed to enhance employee well-being, performance, and workplace culture. Our goal is to empower teams while driving measurable organizational results.",
+        "catalog": "Topics & Course Catalog:",
+        "items": {
+          "emotional": "Emotional Intelligence & Emotion Management",
+          "anxiety": "Anxiety & Depression in the Workplace",
+          "burnout": "Burnout & Workplace Stress Management",
+          "communication": "Effective Communication & Assertiveness",
+          "feedback": "Constructive Feedback & Performance Evaluation",
+          "conflict": "Conflict Resolution & Crisis Management",
+          "intelligence": "Multiple Intelligences & Cognitive Strengths",
+          "team": "Team Building & Organizational Culture",
+          "custom": "Customized Workshops Tailored to Your Organization's Needs"
+        }
+      }
+    }
+  },
+  "Memberships": {
+    "title": "Therapy Plans",
+    "subtitle": "Choose the plan that best fits your needs and goals",
+    "popularPlan": "Most Popular",
+    "perMonth": "per month",
+    "plans": {
+      "basic": {
+        "name": "Essential Care",
+        "price": "$120",
+        "description": "Basic support for individuals seeking occasional guidance",
+        "features": {
+          "one": "2 sessions per month",
+          "two": "Email support",
+          "three": "Self-help resources"
+        },
+        "button": "Get Started"
+      },
+      "standard": {
+        "name": "Comprehensive Care",
+        "price": "$200",
+        "description": "Regular support for ongoing personal growth",
+        "features": {
+          "one": "4 sessions per month",
+          "two": "Priority scheduling",
+          "three": "Email & text support",
+          "four": "Personalized resources"
+        },
+        "button": "Choose Plan"
+      },
+      "premium": {
+        "name": "Intensive Care",
+        "price": "$350",
+        "description": "Comprehensive support for complex challenges",
+        "features": {
+          "one": "8 sessions per month",
+          "two": "Same-day emergency sessions",
+          "three": "Unlimited communication",
+          "four": "Personalized treatment plan",
+          "five": "Family session inclusion"
+        },
+        "button": "Choose Plan"
+      }
+    }
+  },
+  "Contact": {
+    "title": "Contact Me",
+    "subtitle": "Reach out to schedule a consultation or ask any questions",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Enter your name",
+      "email": "Email",
+      "emailPlaceholder": "Enter your email",
+      "subject": "Subject",
+      "subjectPlaceholder": "What is this regarding?",
+      "message": "Message",
+      "messagePlaceholder": "How can I help you?",
+      "submit": "Send Message"
+    },
+    "info": {
+      "address": {
+        "title": "Office Address",
+        "details": "123 Therapy Street, Suite 101, New York, NY 10001"
+      },
+      "phone": {
+        "title": "Phone",
+        "details": "+1 (555) 123-4567"
+      },
+      "email": {
+        "title": "Email",
+        "details": "contact@psychologistname.com"
+      },
+      "hours": {
+        "title": "Office Hours",
+        "details": "Monday-Friday: 9am-7pm, Saturday: 10am-2pm"
+      }
+    }
+  },
+  "Footer": {
+    "about": {
+      "title": "Schweizer Psychology",
+      "description": "Clinical psychologist specialized in evidence-based therapy and integral wellbeing, providing professional psychological services for individuals and companies."
+    },
+    "links": {
+      "services": "Services",
+      "individual": "Individual Therapy",
+      "couples": "Couples Therapy",
+      "family": "Family Therapy",
+      "online": "Online Therapy",
+      "resources": "Resources",
+      "blog": "Blog",
+      "faq": "FAQ",
+      "testimonials": "Testimonials",
+      "research": "Research",
+      "legal": "Legal",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "cookies": "Cookie Policy",
+      "disclaimer": "Disclaimer"
+    },
+    "copyright": "© Schweizer Psychology. All rights reserved."
+  },
+  "Navigation": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About me",
+    "contact": "Contact",
+    "memberships": "Memberships"
+  },
+  "ProfessionalMemberships": {
+    "title": "Professional Memberships",
+    "description": "As part of my commitment to professional development, I am a full member of the Russian Psychological Society, the International Association of Cognitive Behavioural Therapy (IACBT), and the British Psychological Society (BPS). I am also registered with the Ministry of Health of Uruguay, which certifies my professional qualification in the clinical field."
+  },
+  "WhatsApp": {
+    "title": "Contact via WhatsApp",
+    "uruguay": "Uruguay",
+    "uk": "UK"
+  }
+}
+

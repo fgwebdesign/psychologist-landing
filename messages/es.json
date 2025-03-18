@@ -1,0 +1,218 @@
+{
+  "Hero": {
+    "title": "Apoyo Psicológico Profesional",
+    "subtitle": "Ayudándote a navegar los desafíos de la vida con terapia basada en evidencia y atención compasiva",
+    "bookButton": "Reservar Sesión",
+    "learnMoreButton": "Saber Más"
+  },
+  "About": {
+    "title": "Sobre Mí",
+    "subtitle": "Psicólogo Clínico especializado en terapia basada en evidencia y bienestar integral",
+    "greeting": "¡Hola! Soy Martin Schweizer",
+    "intro": "Psicólogo Clínico con más de 13 años de experiencia en el ámbito de la salud mental. Desde mis inicios en la Psicología, me ha apasionado comprender la complejidad de la mente humana y aplicar estrategias basadas en evidencia científica para acompañar a las personas en su desarrollo personal y bienestar. A lo largo de mi carrera, he trabajado con individuos de diferentes partes del mundo, ayudándolos a afrontar desafíos emocionales, conductuales y relacionales.",
+    "experience": {
+      "title": "Experiencia en el NHS",
+      "description": "Mi experiencia profesional incluye un paso significativo por el National Health Service (NHS) del Reino Unido, donde trabajé en el Merton Integrated Recovery Hub (IRH) y en el Community Rehab Team. En Merton IRH, fui parte del equipo de recuperación y apoyo, proporcionando intervenciones psicológicas estructuradas a pacientes y cuidadores. Posteriormente, en el Community Rehab Team, trabajé en la rehabilitación de pacientes que hacían la transición desde unidades de salud mental de largo plazo a la comunidad, diseñando planes de intervención para facilitar su integración."
+    },
+    "approach": {
+      "title": "Enfoque Terapéutico",
+      "description": "Mi enfoque terapéutico se basa en la Terapia Cognitivo Conductual (TCC), combinada con herramientas de la psicología analítica, adaptándome siempre a las necesidades individuales de cada persona. A través de un proceso colaborativo, busco ayudar a mis clientes a identificar patrones de pensamiento y comportamiento que puedan estar limitando su bienestar, promoviendo estrategias prácticas para generar cambios significativos y sostenibles."
+    },
+    "mission": {
+      "title": "Mi Misión",
+      "description": "Mi misión es brindar un espacio seguro y constructivo para explorar desafíos, descubrir oportunidades y, en última instancia, promover cambios positivos. Te invito a conocer más sobre mis servicios y a dar el primer paso hacia el bienestar integral, ya sea individual o dentro de tu empresa."
+    },
+    "stats": {
+      "years": {
+        "number": "13+",
+        "text": "Años de Experiencia"
+      },
+      "clients": {
+        "number": "500+",
+        "text": "Clientes Atendidos"
+      },
+      "specialties": {
+        "number": "5+",
+        "text": "Especializaciones"
+      }
+    }
+  },
+  "Services": {
+    "title": "Mis Servicios",
+    "subtitle": "Servicios psicológicos integrales adaptados a tus necesidades únicas",
+    "forIndividuals": "Para Individuos",
+    "forCompanies": "Para Empresas",
+    "locationNote": "Todos los servicios se proporcionan en línea. Los servicios presenciales para individuos solo se proporcionan en Moscú, Rusia por el momento. Los talleres presenciales para empresas se proporcionan en Europa y Asia.",
+    "individual": {
+      "psychotherapy": {
+        "title": "Psicoterapia",
+        "description": "Tratamiento psicológico basado en evidencia para una amplia gama de problemas de salud mental.",
+        "items": {
+          "anxiety": "Trastornos de Ansiedad",
+          "depression": "Depresión",
+          "ocd": "Trastorno Obsesivo-Compulsivo (TOC)",
+          "emotional": "Dificultades de Regulación Emocional",
+          "mood": "Trastornos del Estado de Ánimo",
+          "schizophrenia": "Síntomas Positivos de Esquizofrenia (Alucinaciones y Delirios)",
+          "ptsd": "Trastorno de Estrés Postraumático (TEPT)"
+        }
+      },
+      "psychodiagnosis": {
+        "title": "Psicodiagnóstico",
+        "description": "Evaluaciones psicológicas completas para evaluar el funcionamiento cognitivo, emocional y conductual, orientando el diagnóstico y las recomendaciones de tratamiento personalizadas."
+      },
+      "counseling": {
+        "title": "Consejería",
+        "description": "Apoyo y orientación para personas que buscan mejorar diversos aspectos de sus vidas.",
+        "items": {
+          "personal": "Desarrollo Personal",
+          "decision": "Habilidades para tomar decisiones",
+          "social": "Habilidades sociales y comunicación",
+          "resilience": "Resiliencia y bienestar emocional",
+          "professional": "Crecimiento profesional",
+          "stress": "Gestión del estrés"
+        }
+      }
+    },
+    "business": {
+      "reflective": {
+        "title": "Práctica Reflexiva",
+        "description": "Un enfoque estructurado y facilitado para mejorar la toma de decisiones en el lugar de trabajo, la dinámica del equipo y la efectividad del liderazgo. A través de sesiones guiadas, los empleados y equipos analizan los desafíos del lugar de trabajo, los resultados del proyecto y las dinámicas interpersonales para fomentar la mejora continua y el pensamiento estratégico."
+      },
+      "workshops": {
+        "title": "Talleres y Seminarios Web",
+        "description": "Ofrecemos talleres personalizados y sesiones de formación diseñados para mejorar el bienestar de los empleados, el rendimiento y la cultura del lugar de trabajo. Nuestro objetivo es empoderar a los equipos mientras impulsamos resultados organizacionales medibles.",
+        "catalog": "Temas y Catálogo de Cursos:",
+        "items": {
+          "emotional": "Inteligencia Emocional y Gestión de Emociones",
+          "anxiety": "Ansiedad y Depresión en el Lugar de Trabajo",
+          "burnout": "Burnout y Gestión del Estrés Laboral",
+          "communication": "Comunicación Efectiva y Asertividad",
+          "feedback": "Retroalimentación Constructiva y Evaluación del Desempeño",
+          "conflict": "Resolución de Conflictos y Gestión de Crisis",
+          "intelligence": "Inteligencias Múltiples y Fortalezas Cognitivas",
+          "team": "Construcción de Equipos y Cultura Organizacional",
+          "custom": "Talleres Personalizados Adaptados a las Necesidades de tu Organización"
+        }
+      }
+    }
+  },
+  "Memberships": {
+    "title": "Planes de Terapia",
+    "subtitle": "Elige el plan que mejor se adapte a tus necesidades y objetivos",
+    "popularPlan": "Más Popular",
+    "perMonth": "por mes",
+    "plans": {
+      "basic": {
+        "name": "Cuidado Esencial",
+        "price": "€120",
+        "description": "Apoyo básico para personas que buscan orientación ocasional",
+        "features": {
+          "one": "2 sesiones por mes",
+          "two": "Soporte por email",
+          "three": "Recursos de autoayuda"
+        },
+        "button": "Comenzar"
+      },
+      "standard": {
+        "name": "Cuidado Integral",
+        "price": "€200",
+        "description": "Apoyo regular para el crecimiento personal continuo",
+        "features": {
+          "one": "4 sesiones por mes",
+          "two": "Programación prioritaria",
+          "three": "Soporte por email y texto",
+          "four": "Recursos personalizados"
+        },
+        "button": "Elegir Plan"
+      },
+      "premium": {
+        "name": "Cuidado Intensivo",
+        "price": "€350",
+        "description": "Apoyo integral para desafíos complejos",
+        "features": {
+          "one": "8 sesiones por mes",
+          "two": "Sesiones de emergencia el mismo día",
+          "three": "Comunicación ilimitada",
+          "four": "Plan de tratamiento personalizado",
+          "five": "Inclusión de sesión familiar"
+        },
+        "button": "Elegir Plan"
+      }
+    }
+  },
+  "ProfessionalMemberships": {
+    "title": "Membresías Profesionales",
+    "description": "Como parte de mi compromiso con la actualización profesional, soy miembro pleno de la Russian Psychological Society, así como de la International Association of Cognitive Behavioural Therapy (IACBT) y la British Psychological Society (BPS). También estoy registrado en el Ministerio de Salud de Uruguay, lo que certifica mi habilitación profesional en el ámbito clínico."
+  },
+  "Contact": {
+    "title": "Contáctame",
+    "subtitle": "Comunícate para programar una consulta o hacer cualquier pregunta",
+    "form": {
+      "name": "Nombre",
+      "namePlaceholder": "Ingresa tu nombre",
+      "email": "Correo electrónico",
+      "emailPlaceholder": "Ingresa tu correo electrónico",
+      "subject": "Asunto",
+      "subjectPlaceholder": "¿De qué se trata?",
+      "message": "Mensaje",
+      "messagePlaceholder": "¿Cómo puedo ayudarte?",
+      "submit": "Enviar Mensaje"
+    },
+    "info": {
+      "address": {
+        "title": "Dirección de la Oficina",
+        "details": "Calle Terapia 123, Suite 101, Madrid, 28001"
+      },
+      "phone": {
+        "title": "Teléfono",
+        "details": "+34 555 123 456"
+      },
+      "email": {
+        "title": "Correo Electrónico",
+        "details": "contacto@nombresicologo.com"
+      },
+      "hours": {
+        "title": "Horario de Oficina",
+        "details": "Lunes-Viernes: 9am-7pm, Sábado: 10am-2pm"
+      }
+    }
+  },
+  "Footer": {
+    "about": {
+      "title": "Schweizer Psychology",
+      "description": "Psicólogo clínico especializado en terapia basada en evidencia y bienestar integral, brindando servicios psicológicos profesionales para individuos y empresas."
+    },
+    "links": {
+      "services": "Servicios",
+      "individual": "Terapia Individual",
+      "couples": "Terapia de Parejas",
+      "family": "Terapia Familiar",
+      "online": "Terapia en Línea",
+      "resources": "Recursos",
+      "blog": "Blog",
+      "faq": "Preguntas Frecuentes",
+      "testimonials": "Testimonios",
+      "research": "Investigación",
+      "legal": "Legal",
+      "privacy": "Política de Privacidad",
+      "terms": "Términos de Servicio",
+      "cookies": "Política de Cookies",
+      "disclaimer": "Aviso Legal"
+    },
+    "copyright": "© Schweizer Psychology. Todos los derechos reservados."
+  },
+  "Navigation": {
+    "home": "Inicio",
+    "services": "Servicios", 
+    "about": "Sobre mi",
+    "contact": "Contacto",
+    "memberships": "Membresías"
+  },
+  "WhatsApp": {
+    "title": "Contactar por WhatsApp",
+    "uruguay": "Uruguay",
+    "uk": "Reino Unido"
+  }
+}
+
