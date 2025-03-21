@@ -143,7 +143,7 @@
   },
   "ProfessionalMemberships": {
     "title": "Membresías Profesionales",
-    "description": "Como parte de mi compromiso con la actualización profesional, soy miembro pleno de la Russian Psychological Society, así como de la International Association of Cognitive Behavioural Therapy (IACBT) y la British Psychological Society (BPS). También estoy registrado en el Ministerio de Salud de Uruguay, lo que certifica mi habilitación profesional en el ámbito clínico."
+    "description": "Como parte de mi compromiso con el desarrollo profesional, soy miembro pleno de la Sociedad Rusa de Psicología, la Asociación Internacional de Terapia Cognitivo-Conductual (IACBT) y la Sociedad Británica de Psicología (BPS). También estoy registrado en el Ministerio de Salud de Uruguay, que certifica mi calificación profesional en el campo clínico."
   },
   "Contact": {
     "title": "Contáctame",
@@ -206,6 +206,7 @@
       "testimonials": "Testimonios",
       "research": "Investigación",
       "publications": "Publicaciones",
+      "recommendations": "Recomendaciones",
       "legal": "Legal",
       "privacy": "Política de Privacidad",
       "terms": "Términos de Servicio",
@@ -221,8 +222,58 @@
     "contact": "Contacto",
     "memberships": "Membresías"
   },
+  "FAQ": {
+    "title": "Preguntas Frecuentes",
+    "subtitle": "Respuestas a las preguntas más comunes sobre mis servicios de psicología",
+    "questions": {
+      "q1": {
+        "question": "¿Con qué problemas puedes ayudar?",
+        "answer": "Proporciono tratamiento basado en evidencia para ansiedad, depresión, TOC, dificultades de regulación emocional, trastornos del estado de ánimo, TEPT, psicosis, y más. También ofrezco asesoramiento para el crecimiento personal, toma de decisiones y manejo del estrés."
+      },
+      "q2": {
+        "question": "¿Cuál es tu enfoque terapéutico?",
+        "answer": "Mi enfoque terapéutico es principalmente la Terapia Cognitivo-Conductual (TCC), complementada con técnicas de psicología analítica. Las sesiones se personalizan para adaptarse a las necesidades y objetivos específicos de cada cliente."
+      },
+      "q3": {
+        "question": "¿Cuánto dura la terapia?",
+        "answer": "La duración de la terapia depende del individuo, sus preocupaciones y sus objetivos. Algunas personas se benefician de una terapia a corto plazo (unos pocos meses), mientras que otras pueden elegir un trabajo a más largo plazo para una exploración personal más profunda."
+      },
+      "q4": {
+        "question": "¿Ofreces sesiones en línea?",
+        "answer": "Sí, proporciono terapia en línea para personas de todo el mundo. Las sesiones presenciales están disponibles en Moscú, Rusia."
+      },
+      "q5": {
+        "question": "¿Qué sucede en la primera sesión?",
+        "answer": "La primera sesión se centra en comprender tus preocupaciones, historia personal y objetivos terapéuticos. En base a esto, desarrollamos un plan personalizado para guiar el proceso."
+      },
+      "q6": {
+        "question": "¿Cuánto duran las sesiones de terapia?",
+        "answer": "Las sesiones duran 50 minutos, pero permito flexibilidad para extenderlas a 55 minutos si es necesario. Esto se basa en la tradicional \"hora de 50 minutos\" utilizada en terapia, garantizando tiempo suficiente para la discusión mientras se permite la preparación para la siguiente sesión."
+      },
+      "q7": {
+        "question": "¿Es confidencial la terapia?",
+        "answer": "Sí, la terapia es estrictamente confidencial. Sin embargo, existen excepciones legales y éticas, como el riesgo de daño a uno mismo o a otros, o cuando lo exige la ley."
+      },
+      "q8": {
+        "question": "¿Cómo programo una cita?",
+        "answer": "Puedes contactarme por correo electrónico o a través de mi sitio web para reservar una sesión. Responderé lo antes posible para coordinar un horario adecuado."
+      },
+      "q9": {
+        "question": "¿Cuál es tu política de cancelación y reprogramación?",
+        "answer": "Las cancelaciones y reprogramaciones deben realizarse con al menos 12 horas de anticipación para evitar cargos. Si cancelas con menos de 12 horas de antelación, se aplicará la tarifa completa de la sesión. Se pueden hacer excepciones en situaciones extraordinarias."
+      },
+      "q10": {
+        "question": "¿Puedo tener una sesión de prueba antes de comprometerme con la terapia?",
+        "answer": "Sí, ofrezco una sesión de prueba de 30 minutos para ayudarte a determinar si mi enfoque es adecuado para ti. Esta sesión te permite hacer preguntas y discutir tus necesidades antes de comprometerte con la terapia."
+      },
+      "q11": {
+        "question": "¿En qué idiomas se brindan las sesiones?",
+        "answer": "Las sesiones se brindarán en idioma Inglés y Español. Para otros idiomas puede discutirse el uso de un intérprete o herramientas de IA."
+      }
+    }
+  },
   "WhatsApp": {
-    "title": "Contactar por WhatsApp",
+    "title": "Información de Contacto",
     "uruguay": "Uruguay",
     "uk": "Reino Unido"
   },
@@ -252,16 +303,68 @@
   },
   "Publications": {
     "title": "Publicaciones",
-    "subtitle": "Acceda a mis publicaciones académicas y artículos de investigación",
+    "subtitle": "Accede a mis publicaciones académicas y artículos de investigación",
     "downloadButton": "Descargar PDF",
     "papers": {
       "first": {
-        "title": "Intervenciones psicológicas en el tratamiento de trastornos mentales graves",
+        "title": "Intervenciones Psicológicas en el Tratamiento de Trastornos Mentales Graves",
         "authors": "Martin Schweizer, et al.",
         "date": "2023",
         "journal": "Revista de Psiquiatría del Uruguay",
         "abstract": "Este artículo presenta una revisión sistemática de las intervenciones psicológicas más efectivas en el tratamiento de trastornos mentales graves, con un enfoque especial en la integración de la terapia cognitivo-conductual y otras modalidades terapéuticas.",
         "link": "Publicacion Revista de Psiquiatria Uruguay.pdf"
+      }
+    }
+  },
+  "SelfHelp": {
+    "title": "Guías de Autoayuda",
+    "subtitle": "Descarga recursos gratuitos para ayudar con problemas psicológicos comunes",
+    "downloadButton": "Descargar PDF",
+    "pagination": {
+      "prev": "Anterior",
+      "next": "Siguiente",
+      "page": "Página"
+    },
+    "guides": {
+      "anxiety": {
+        "title": "Ansiedad",
+        "description": "Guía completa sobre la ansiedad y técnicas para su manejo efectivo",
+        "filename": "Ansiedad.pdf"
+      },
+      "burnout": {
+        "title": "Burnout",
+        "description": "Cómo identificar y recuperarse del síndrome de agotamiento profesional",
+        "filename": "Burnout.pdf"
+      },
+      "depression": {
+        "title": "Depresión",
+        "description": "Comprensión y estrategias para afrontar la depresión",
+        "filename": "Depresión.pdf"
+      },
+      "stressAnxiety": {
+        "title": "Estrés y Ansiedad",
+        "description": "Diferencias entre estrés y ansiedad y cómo manejar ambos",
+        "filename": "Estrés Diferencias con la Ansiedad.pdf"
+      },
+      "sleep": {
+        "title": "Problemas de Sueño",
+        "description": "Guía para entender y superar los problemas de sueño e insomnio",
+        "filename": "Problemas de Sueño e Insomnio.pdf"
+      },
+      "ptsd": {
+        "title": "Estrés Postraumático",
+        "description": "Información sobre el trastorno de estrés postraumático y su tratamiento",
+        "filename": "Trastorno de Estrés Postraumático.pdf"
+      },
+      "panic": {
+        "title": "Trastorno de Pánico",
+        "description": "Cómo reconocer y gestionar los ataques de pánico",
+        "filename": "Trastorno de Pánico.pdf"
+      },
+      "ocd": {
+        "title": "Trastorno Obsesivo",
+        "description": "Entendiendo el trastorno obsesivo compulsivo y sus tratamientos",
+        "filename": "Trastorno Obsesivo.pdf"
       }
     }
   }

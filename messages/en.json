@@ -202,6 +202,7 @@
       "testimonials": "Testimonials",
       "research": "Research",
       "publications": "Publications",
+      "recommendations": "Recommendations",
       "legal": "Legal",
       "privacy": "Privacy Policy",
       "terms": "Terms of Service",
@@ -217,12 +218,62 @@
     "contact": "Contact",
     "memberships": "Memberships"
   },
+  "FAQ": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Answers to the most common questions about my psychological services",
+    "questions": {
+      "q1": {
+        "question": "What issues do you help with?",
+        "answer": "I provide evidence-based treatment for anxiety, depression, OCD, emotional regulation difficulties, mood disorders, PTSD, psychosis, and more. I also offer counseling for personal growth, decision-making, and stress management."
+      },
+      "q2": {
+        "question": "What is your approach to therapy?",
+        "answer": "My therapeutic approach is primarily Cognitive Behavioral Therapy (CBT), complemented by techniques from analytical psychology. Sessions are personalized to suit each client's specific needs and goals."
+      },
+      "q3": {
+        "question": "How long does therapy take?",
+        "answer": "The length of therapy depends on the individual, their concerns, and their goals. Some people benefit from short-term therapy (a few months), while others may choose longer-term work for deeper self-exploration."
+      },
+      "q4": {
+        "question": "Do you offer online sessions?",
+        "answer": "Yes, I provide online therapy for individuals worldwide. In-person sessions are available in Moscow, Russia."
+      },
+      "q5": {
+        "question": "What happens in the first session?",
+        "answer": "The first session focuses on understanding your concerns, personal history, and therapy goals. Based on this, we develop a personalized plan to guide the process."
+      },
+      "q6": {
+        "question": "How long are therapy sessions?",
+        "answer": "Sessions last 50 minutes, but I allow flexibility to extend them to 55 minutes if needed. This is based on the traditional \"50-minute hour\" used in therapy, ensuring enough time for discussion while allowing preparation for the next session."
+      },
+      "q7": {
+        "question": "Is therapy confidential?",
+        "answer": "Yes, therapy is strictly confidential. However, there are legal and ethical exceptions, such as risk of harm to yourself or others, or when required by law."
+      },
+      "q8": {
+        "question": "How do I schedule an appointment?",
+        "answer": "You can contact me via email or my website to book a session. I will respond as soon as possible to coordinate a suitable time."
+      },
+      "q9": {
+        "question": "What is your cancellation and rescheduling policy?",
+        "answer": "Cancellations and reschedules must be made at least 12 hours in advance to avoid being charged. If you cancel within less than 12 hours, the full session fee will apply. Exceptions may be made in extraordinary situations."
+      },
+      "q10": {
+        "question": "Can I have a trial session before committing to therapy?",
+        "answer": "Yes, I offer a 30-minute tryout session to help you determine if my approach is the right fit for you. This session allows you to ask questions and discuss your needs before committing to therapy."
+      },
+      "q11": {
+        "question": "In which languages are sessions provided?",
+        "answer": "Sessions are provided in English and Spanish. For other languages, the use of an interpreter or AI tools can be discussed."
+      }
+    }
+  },
   "ProfessionalMemberships": {
     "title": "Professional Memberships",
     "description": "As part of my commitment to professional development, I am a full member of the Russian Psychological Society, the International Association of Cognitive Behavioural Therapy (IACBT), and the British Psychological Society (BPS). I am also registered with the Ministry of Health of Uruguay, which certifies my professional qualification in the clinical field."
   },
   "WhatsApp": {
-    "title": "Contact via WhatsApp",
+    "title": "Contact Information",
     "uruguay": "Uruguay",
     "uk": "UK"
   },
@@ -262,6 +313,58 @@
         "journal": "Uruguay Journal of Psychiatry",
         "abstract": "This article presents a systematic review of the most effective psychological interventions in the treatment of severe mental disorders, with a special focus on the integration of cognitive-behavioral therapy and other therapeutic modalities.",
         "link": "Publicacion Revista de Psiquiatria Uruguay.pdf"
+      }
+    }
+  },
+  "SelfHelp": {
+    "title": "Self-Help Guides",
+    "subtitle": "Download free resources to help with common psychological challenges",
+    "downloadButton": "Download PDF",
+    "pagination": {
+      "prev": "Previous",
+      "next": "Next",
+      "page": "Page"
+    },
+    "guides": {
+      "anxiety": {
+        "title": "Anxiety",
+        "description": "Comprehensive guide on anxiety and techniques for effective management",
+        "filename": "Ansiedad.pdf"
+      },
+      "burnout": {
+        "title": "Burnout",
+        "description": "How to identify and recover from professional burnout syndrome",
+        "filename": "Burnout.pdf"
+      },
+      "depression": {
+        "title": "Depression",
+        "description": "Understanding and strategies to cope with depression",
+        "filename": "Depresión.pdf"
+      },
+      "stressAnxiety": {
+        "title": "Stress and Anxiety",
+        "description": "Differences between stress and anxiety and how to manage both",
+        "filename": "Estrés Diferencias con la Ansiedad.pdf"
+      },
+      "sleep": {
+        "title": "Sleep Problems",
+        "description": "Guide to understanding and overcoming sleep problems and insomnia",
+        "filename": "Problemas de Sueño e Insomnio.pdf"
+      },
+      "ptsd": {
+        "title": "Post-Traumatic Stress",
+        "description": "Information about post-traumatic stress disorder and its treatment",
+        "filename": "Trastorno de Estrés Postraumático.pdf"
+      },
+      "panic": {
+        "title": "Panic Disorder",
+        "description": "How to recognize and manage panic attacks",
+        "filename": "Trastorno de Pánico.pdf"
+      },
+      "ocd": {
+        "title": "Obsessive Disorder",
+        "description": "Understanding obsessive-compulsive disorder and its treatments",
+        "filename": "Trastorno Obsesivo.pdf"
       }
     }
   }

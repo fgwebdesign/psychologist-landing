@@ -26,10 +26,23 @@ export default function Hero() {
               {t("subtitle")}
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-6 rounded-lg text-lg font-light tracking-wide">
+              <Button 
+                size="lg" 
+                className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-6 rounded-lg text-lg font-light tracking-wide"
+                onClick={() => {
+                  document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+                }}
+              >
                 {t("bookButton")}
               </Button>
-              <Button size="lg" variant="outline" className="border-blue-400 text-blue-400 hover:bg-blue-400/10 px-8 py-6 rounded-lg text-lg font-light tracking-wide">
+              <Button 
+                size="lg" 
+                variant="outline" 
+                className="border-blue-400 text-blue-400 hover:bg-blue-400/10 px-8 py-6 rounded-lg text-lg font-light tracking-wide"
+                onClick={() => {
+                  document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' });
+                }}
+              >
                 {t("learnMoreButton")}
               </Button>
             </div>

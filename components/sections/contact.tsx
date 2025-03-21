@@ -104,13 +104,6 @@ export default function Contact() {
         }
       },
     },
-    {
-      icon: <Clock className="h-5 w-5 text-primary" />,
-      title: "info.hours.title",
-      details: t("info.hours.details"),
-      hasAction: false,
-      action: null,
-    },
   ]
 
   // Función segura para el onClick que comprueba si estamos en cliente

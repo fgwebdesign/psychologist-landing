@@ -3,13 +3,10 @@
 import { useState, useEffect } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { useTranslations } from "next-intl"
-import { MessageCircle, X } from "lucide-react"
+import { MessageCircle, X, Phone } from "lucide-react"
 
-type WhatsAppContact = {
-  name: string
-  translationKey: string
+type ContactInfo = {
   number: string
-  country: string
 }
 
 export default function WhatsAppFloat() {
@@ -21,24 +18,20 @@ export default function WhatsAppFloat() {
     setIsMounted(true)
   }, [])
 
-  const whatsappContacts: WhatsAppContact[] = [
+  const contacts = [
     {
-      name: "Uruguay",
-      translationKey: "uruguay",
-      number: "+59892543668",
-      country: "🇺🇾"
+      number: "+59892543668"
     },
     {
-      name: "UK",
-      translationKey: "uk",
-      number: "+447821848437",
-      country: "🇬🇧"
+      number: "+447821848437"
+    },
+    {
+      number: "+79160688413"
     }
   ]
 
-  const handleWhatsAppClick = (contact: WhatsAppContact) => {
-    const whatsappUrl = `https://wa.me/${contact.number.replace(/\+/g, '')}`;
-    window.open(whatsappUrl, "_blank");
+  const handleContactClick = (contact: ContactInfo) => {
+    window.open(`tel:${contact.number}`, "_blank");
     setIsOpen(false);
   };
 
@@ -57,7 +50,7 @@ export default function WhatsAppFloat() {
               exit={{ opacity: 0 }}
               className="absolute bottom-full right-0 mb-2 bg-white rounded-lg shadow-lg overflow-hidden w-72"
             >
-              <div className="px-4 py-3 bg-green-500 text-white flex justify-between items-center">
+              <div className="px-4 py-3 bg-blue-500 text-white flex justify-between items-center">
                 <span className="text-sm font-medium">{t("title")}</span>
                 <button
                   onClick={() => setIsOpen(false)}
@@ -67,17 +60,18 @@ export default function WhatsAppFloat() {
                 </button>
               </div>
               <div className="p-2">
-                {whatsappContacts.map((contact, index) => (
+                {contacts.map((contact, index) => (
                   <button
                     key={index}
-                    onClick={() => handleWhatsAppClick(contact)}
-                    className="w-full p-2 flex items-center gap-3 hover:bg-gray-50 rounded-md transition-colors"
+                    onClick={() => handleContactClick(contact)}
+                    className="w-full p-3 flex items-center gap-4 hover:bg-gray-50 rounded-md transition-colors text-left mb-1"
                   >
-                    <span className="text-xl">{contact.country}</span>
-                    <div className="text-left">
-                      <p className="text-sm font-medium text-gray-700">{t(contact.translationKey)}</p>
-                      <p className="text-xs text-gray-500">{contact.number}</p>
-                    </div>
+                    <span className="flex-shrink-0">
+                      <Phone className="h-5 w-5 text-blue-500" />
+                    </span>
+                    <p className="text-sm font-medium text-gray-700">
+                      {contact.number}
+                    </p>
                   </button>
                 ))}
               </div>
@@ -87,10 +81,10 @@ export default function WhatsAppFloat() {
 
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="bg-green-500 hover:bg-green-600 text-white p-3 rounded-full shadow-lg transition-colors"
-          aria-label="Contactar por WhatsApp"
+          className="bg-blue-500 hover:bg-blue-600 text-white p-3 rounded-full shadow-lg transition-colors duration-300 hover:scale-105"
+          aria-label="Contactar"
         >
-          <MessageCircle className="h-6 w-6" />
+          <Phone className="h-6 w-6" />
         </button>
       </div>
     </div>
