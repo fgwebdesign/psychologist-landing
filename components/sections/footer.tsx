@@ -29,13 +29,6 @@ export default function Footer() {
         { key: "links.recommendations", href: "#" }
       ] 
     },
-    { 
-      title: "links.legal", 
-      items: [
-        { key: "links.terms", href: "#" },
-        { key: "links.cookies", href: "#" }
-      ] 
-    },
   ]
 
   return (
@@ -47,7 +40,7 @@ export default function Footer() {
       </div>
       
       <div className="max-w-7xl mx-auto px-6 md:px-12 py-16 relative z-10">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           <motion.div
             className="lg:col-span-2"
             initial={{ opacity: 0 }}
