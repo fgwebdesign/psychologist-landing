@@ -25,8 +25,7 @@ export default function Footer() {
       items: [
         { key: "links.faq", href: "/faq" },
         { key: "links.selfHelp", href: "/self-help" },
-        { key: "links.publications", href: "/publications" },
-        { key: "links.recommendations", href: "#" }
+        { key: "links.publications", href: "/publications" }
       ] 
     },
   ]

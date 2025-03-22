@@ -7,6 +7,8 @@ import { MessageCircle, X, Phone } from "lucide-react"
 
 type ContactInfo = {
   number: string
+  country: string
+  isWhatsApp: boolean
 }
 
 export default function WhatsAppFloat() {
@@ -20,18 +22,28 @@ export default function WhatsAppFloat() {
 
   const contacts = [
     {
-      number: "+59892543668"
+      number: "+59892543668",
+      country: "uruguay",
+      isWhatsApp: true
     },
     {
-      number: "+447821848437"
+      number: "+447821848437",
+      country: "uk",
+      isWhatsApp: true
     },
     {
-      number: "+79160688413"
+      number: "+79160688413",
+      country: "russia",
+      isWhatsApp: false
     }
   ]
 
   const handleContactClick = (contact: ContactInfo) => {
-    window.open(`tel:${contact.number}`, "_blank");
+    if (contact.isWhatsApp) {
+      window.open(`https://wa.me/${contact.number.replace(/\+/g, '')}`, "_blank");
+    } else {
+      window.open(`tel:${contact.number}`, "_blank");
+    }
     setIsOpen(false);
   };
 
@@ -67,11 +79,17 @@ export default function WhatsAppFloat() {
                     className="w-full p-3 flex items-center gap-4 hover:bg-gray-50 rounded-md transition-colors text-left mb-1"
                   >
                     <span className="flex-shrink-0">
-                      <Phone className="h-5 w-5 text-blue-500" />
+                      {contact.isWhatsApp ? (
+                        <MessageCircle className="h-5 w-5 text-green-500" />
+                      ) : (
+                        <Phone className="h-5 w-5 text-blue-500" />
+                      )}
                     </span>
-                    <p className="text-sm font-medium text-gray-700">
-                      {contact.number}
-                    </p>
+                    <div>
+                      <p className="text-sm font-medium text-gray-700">
+                        {contact.number}
+                      </p>
+                    </div>
                   </button>
                 ))}
               </div>
@@ -81,10 +99,10 @@ export default function WhatsAppFloat() {
 
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="bg-blue-500 hover:bg-blue-600 text-white p-3 rounded-full shadow-lg transition-colors duration-300 hover:scale-105"
+          className="bg-green-500 hover:bg-green-600 text-white p-3 rounded-full shadow-lg transition-colors duration-300 hover:scale-105"
           aria-label="Contactar"
         >
-          <Phone className="h-6 w-6" />
+          <MessageCircle className="h-6 w-6" />
         </button>
       </div>
     </div>
