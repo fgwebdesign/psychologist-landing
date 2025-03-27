@@ -50,39 +50,25 @@ export default function Hero() {
         </div>
 
         <div className="flex-1 mt-16 md:mt-0 relative z-10">
-          <div className="relative w-full max-w-lg mx-auto h-[400px] md:h-[500px]">
-            {/* Main image with custom shape */}
-            <div className="relative w-full h-full rounded-2xl overflow-hidden" style={{ position: 'relative' }}>
-              <div className="absolute inset-0 bg-gradient-to-tr from-blue-600/20 to-blue-400/10 rounded-2xl z-0" />
-              
-              <picture style={{ position: 'relative', display: 'block', height: '100%' }}>
-                <source 
-                  srcSet="/optimized/intro1-optimized.webp" 
-                  type="image/webp" 
-                />
-                <Image
-                  src="/intro1.png"
-                  alt="Psychology therapy session"
-                  fill
-                  className="object-cover rounded-2xl z-10"
-                  priority
-                  sizes="(max-width: 768px) 100vw, 50vw"
-                  quality={80}
-                  placeholder="blur"
-                  blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+P+/HgAEhgI/G5QtlQAAAABJRU5ErkJggg=="
-                  loading="eager"
-                />
-              </picture>
-              
-              {/* Overlay gradient */}
-              <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent z-20" />
-              
-              {/* Frame decoration */}
-              <div className="absolute top-0 left-0 w-20 h-20 border-t-4 border-l-4 border-blue-400 rounded-tl-xl z-30" />
-              <div className="absolute top-0 right-0 w-20 h-20 border-t-4 border-r-4 border-blue-400 rounded-tr-xl z-30" />
-              <div className="absolute bottom-0 left-0 w-20 h-20 border-b-4 border-l-4 border-blue-400 rounded-bl-xl z-30" />
-              <div className="absolute bottom-0 right-0 w-20 h-20 border-b-4 border-r-4 border-blue-400 rounded-br-xl z-30" />
-            </div>
+          <div className="relative w-full h-[500px] md:h-auto md:max-w-sm lg:max-w-md mx-auto aspect-[3/4] rounded-2xl overflow-hidden">
+            <div className="absolute inset-0 bg-gradient-to-tr from-blue-600/20 to-blue-400/10 rounded-2xl z-0" />
+            
+            <Image
+              src="/intro1.png"
+              alt={t("imageAlt")}
+              fill
+              className="object-cover object-center z-10"
+              priority
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 30vw, 25vw"
+              quality={90}
+            />
+            
+            <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent z-20" />
+            
+            <div className="absolute top-0 left-0 w-12 sm:w-20 h-12 sm:h-20 border-t-4 border-l-4 border-blue-400 rounded-tl-xl z-30" />
+            <div className="absolute top-0 right-0 w-12 sm:w-20 h-12 sm:h-20 border-t-4 border-r-4 border-blue-400 rounded-tr-xl z-30" />
+            <div className="absolute bottom-0 left-0 w-12 sm:w-20 h-12 sm:h-20 border-b-4 border-l-4 border-blue-400 rounded-bl-xl z-30" />
+            <div className="absolute bottom-0 right-0 w-12 sm:w-20 h-12 sm:h-20 border-b-4 border-r-4 border-blue-400 rounded-br-xl z-30" />
           </div>
         </div>
       </div>

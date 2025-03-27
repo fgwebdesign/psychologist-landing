@@ -2,8 +2,9 @@
   "Hero": {
     "title": "Professional Psychological Support",
     "subtitle": "Helping you navigate life's challenges with evidence-based therapy and compassionate care",
-    "bookButton": "Book a Session",
-    "learnMoreButton": "Learn More"
+    "bookButton": "Book Session",
+    "learnMoreButton": "Learn More",
+    "imageAlt": "Psychology therapy session"
   },
   "About": {
     "title": "About Me",
@@ -144,6 +145,29 @@
   "Contact": {
     "title": "Contact Me",
     "subtitle": "Reach out to schedule a consultation or ask any questions",
+    "info": {
+      "uruguay": {
+        "title": "Uruguay",
+        "phone": "+598 92 543 668"
+      },
+      "uk": {
+        "title": "UK",
+        "phone": "+44 782 184 8437"
+      },
+      "russia": {
+        "title": "Russia",
+        "phone": "+7 916 068 8413"
+      },
+      "email": {
+        "title": "Email",
+        "address": "contact@schweizerpsychology.com"
+      },
+      "linkedin": {
+        "title": "LinkedIn",
+        "name": "Martin Schweizer Arigon",
+        "url": "https://www.linkedin.com/in/martin-schweizer-arigon/"
+      }
+    },
     "form": {
       "name": "Name",
       "namePlaceholder": "Enter your name",
@@ -162,24 +186,6 @@
       "error": {
         "title": "Error",
         "description": "There was an error sending your message. Please try again later."
-      }
-    },
-    "info": {
-      "address": {
-        "title": "Office Address",
-        "details": "123 Therapy Street, Suite 101, New York, NY 10001"
-      },
-      "phone": {
-        "title": "Phone",
-        "details": "+1 (555) 123-4567"
-      },
-      "email": {
-        "title": "Email",
-        "details": "contact@psychologistname.com"
-      },
-      "hours": {
-        "title": "Office Hours",
-        "details": "Monday-Friday: 9am-7pm, Saturday: 10am-2pm"
       }
     }
   },
@@ -279,8 +285,18 @@
   "Experience": {
     "title": "Professional Experience",
     "subtitle": "A journey through my professional career in clinical psychology",
+    "nhs": {
+      "title": "Merton Integrated Recovery Hub (NHS)",
+      "role": "Clinical Psychologist",
+      "date": "2023 - 2024",
+      "description": "Part of the recovery and support team, providing structured psychological interventions to patients and caregivers. Worked on rehabilitating patients transitioning from long-term mental health units to the community, designing intervention plans to facilitate their integration."
+    },
     "ippm": {
       "title": "Institute of Psychiatry and Psychology of Montevideo",
+      "role": {
+        "clinical": "Clinical Psychologist for adults",
+        "manager": "Clinical Manager"
+      },
       "date": "2022 - 2025",
       "description": "Clinical Psychologist for adults and Clinical Manager, leading therapeutic teams and providing specialized psychological care."
     },

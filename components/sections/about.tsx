@@ -90,25 +90,12 @@ export default function About() {
               <p className="text-lg leading-relaxed font-light">{t("intro")}</p>
             </motion.div>
 
-            {/* Experiencia NHS */}
-            <motion.div
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: 0.4 }}
-              variants={fadeIn}
-              className="space-y-4"
-            >
-              <h4 className="text-xl font-medium text-blue-400">{t("experience.title")}</h4>
-              <p className="text-base leading-relaxed font-light">{t("experience.description")}</p>
-            </motion.div>
-
             {/* Enfoque Terapéutico */}
             <motion.div
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: 0.5 }}
+              transition={{ duration: 0.6, delay: 0.4 }}
               variants={fadeIn}
               className="space-y-4"
             >
@@ -121,7 +108,7 @@ export default function About() {
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: 0.6 }}
+              transition={{ duration: 0.6, delay: 0.5 }}
               variants={fadeIn}
               className="space-y-4"
             >

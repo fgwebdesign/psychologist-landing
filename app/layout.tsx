@@ -17,9 +17,9 @@ export default function RootLayout({
       <head>
         <link
           rel="preload"
-          href="/optimized/intro1-optimized.webp"
+          href="/intro1.png"
           as="image"
-          type="image/webp"
+          type="image/png"
         />
       </head>
       <body>{children}</body>

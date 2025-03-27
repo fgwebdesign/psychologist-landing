@@ -55,7 +55,7 @@ export function Header() {
             onClick={() => scrollToSection('hero')} 
             className="flex items-center gap-1 font-heading font-semibold text-xl md:text-2xl border-0 bg-transparent cursor-pointer"
           >
-            <span className="hidden sm:inline font-light text-blue-400 tracking-tight">Schweizer</span> 
+            <span className="inline font-light text-blue-400 tracking-tight">Schweizer</span> 
             <span className="text-white tracking-tight">Psychology</span>
           </button>
         ) : (
@@ -63,7 +63,7 @@ export function Header() {
             href={getLocalePath('/')}
             className="flex items-center gap-1 font-heading font-semibold text-xl md:text-2xl"
           >
-            <span className="hidden sm:inline font-light text-blue-400 tracking-tight">Schweizer</span> 
+            <span className="inline font-light text-blue-400 tracking-tight">Schweizer</span> 
             <span className="text-white tracking-tight">Psychology</span>
           </Link>
         )}

@@ -69,8 +69,8 @@ export default function Experience() {
     {
       title: t("ippm.title"),
       dates: [
-        { role: "Psicólogo Clínico para adultos", period: "2022 - 2025" },
-        { role: "Clinical Manager", period: "2022 - 2024" }
+        { role: t("ippm.role.clinical"), period: t("ippm.date") },
+        { role: t("ippm.role.manager"), period: t("ippm.date") }
       ],
       description: t("ippm.description"),
       icon: Building2
@@ -78,15 +78,23 @@ export default function Experience() {
     {
       title: t("private.title"),
       dates: [
-        { role: "", period: "2020 - Presente" }
+        { role: "", period: t("private.date") }
       ],
       description: t("private.description"),
       icon: Briefcase
     },
     {
+      title: t("nhs.title"),
+      dates: [
+        { role: t("nhs.role"), period: t("nhs.date") }
+      ],
+      description: t("nhs.description"),
+      icon: Building2
+    },
+    {
       title: t("shp.title"),
       dates: [
-        { role: "", period: "2023" }
+        { role: "", period: t("shp.date") }
       ],
       description: t("shp.description"),
       icon: Users
@@ -94,7 +102,7 @@ export default function Experience() {
     {
       title: t("tresCruces.title"),
       dates: [
-        { role: "", period: "2011 - 2017" }
+        { role: "", period: t("tresCruces.date") }
       ],
       description: t("tresCruces.description"),
       icon: Home

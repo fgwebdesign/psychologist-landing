@@ -3,7 +3,8 @@
     "title": "Apoyo Psicológico Profesional",
     "subtitle": "Ayudándote a navegar los desafíos de la vida con terapia basada en evidencia y atención compasiva",
     "bookButton": "Reservar Sesión",
-    "learnMoreButton": "Saber Más"
+    "learnMoreButton": "Saber Más",
+    "imageAlt": "Sesión de terapia psicológica"
   },
   "About": {
     "title": "Sobre Mí",
@@ -148,6 +149,29 @@
   "Contact": {
     "title": "Contáctame",
     "subtitle": "Comunícate para programar una consulta o hacer cualquier pregunta",
+    "info": {
+      "uruguay": {
+        "title": "Uruguay",
+        "phone": "+598 92 543 668"
+      },
+      "uk": {
+        "title": "Reino Unido",
+        "phone": "+44 782 184 8437"
+      },
+      "russia": {
+        "title": "Rusia",
+        "phone": "+7 916 068 8413"
+      },
+      "email": {
+        "title": "Correo Electrónico",
+        "address": "contact@schweizerpsychology.com"
+      },
+      "linkedin": {
+        "title": "LinkedIn",
+        "name": "Martin Schweizer Arigon",
+        "url": "https://www.linkedin.com/in/martin-schweizer-arigon/"
+      }
+    },
     "form": {
       "name": "Nombre",
       "namePlaceholder": "Ingresa tu nombre",
@@ -166,24 +190,6 @@
       "error": {
         "title": "Error",
         "description": "Hubo un error al enviar tu mensaje. Por favor, inténtalo de nuevo más tarde."
-      }
-    },
-    "info": {
-      "address": {
-        "title": "Dirección de la Oficina",
-        "details": "Calle Terapia 123, Suite 101, Madrid, 28001"
-      },
-      "phone": {
-        "title": "Teléfono",
-        "details": "+34 555 123 456"
-      },
-      "email": {
-        "title": "Correo Electrónico",
-        "details": "contacto@nombresicologo.com"
-      },
-      "hours": {
-        "title": "Horario de Oficina",
-        "details": "Lunes-Viernes: 9am-7pm, Sábado: 10am-2pm"
       }
     }
   },
@@ -279,10 +285,20 @@
   "Experience": {
     "title": "Experiencia Profesional",
     "subtitle": "Un recorrido por mi trayectoria profesional en el campo de la psicología clínica",
+    "nhs": {
+      "title": "Centro de Recuperación Integrada de Merton (NHS)",
+      "role": "Psicólogo Clínico",
+      "date": "2023 - 2024",
+      "description": "Parte del equipo de recuperación y apoyo, proporcionando intervenciones psicológicas estructuradas a pacientes y cuidadores. Trabajé en la rehabilitación de pacientes que hacían la transición desde unidades de salud mental de largo plazo a la comunidad, diseñando planes de intervención para facilitar su integración."
+    },
     "ippm": {
       "title": "Instituto de Psiquiatría y Psicología de Montevideo",
+      "role": {
+        "clinical": "Psicólogo Clínico para adultos",
+        "manager": "Gerente Clínico"
+      },
       "date": "2022 - 2025",
-      "description": "Psicólogo Clínico para adultos y Clinical Manager, liderando equipos terapéuticos y proporcionando atención psicológica especializada."
+      "description": "Psicólogo Clínico para adultos y Gerente Clínico, liderando equipos terapéuticos y proporcionando atención psicológica especializada."
     },
     "private": {
       "title": "Práctica Privada Internacional",
@@ -290,7 +306,7 @@
       "description": "Terapia online y presencial con pacientes de América del Sur, China, Reino Unido, Sudáfrica y EE.UU., adaptando enfoques terapéuticos a diversas culturas."
     },
     "shp": {
-      "title": "Single Homeless Project, Londres",
+      "title": "Proyecto para Personas sin Hogar, Londres",
       "date": "2023",
       "description": "Psicólogo y Consultor en Entorno Psicológicamente Informado (PIE), trabajando con poblaciones vulnerables y desarrollando estrategias de intervención."
     },

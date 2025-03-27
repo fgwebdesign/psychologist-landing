@@ -22,17 +22,17 @@ export default function WhatsAppFloat() {
 
   const contacts = [
     {
-      number: "+59892543668",
+      number: "+598 92 543 668",
       country: "uruguay",
       isWhatsApp: true
     },
     {
-      number: "+447821848437",
+      number: "+44 782 184 8437",
       country: "uk",
       isWhatsApp: true
     },
     {
-      number: "+79160688413",
+      number: "+7 916 068 8413",
       country: "russia",
       isWhatsApp: false
     }

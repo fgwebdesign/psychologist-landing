@@ -1,5 +1,6 @@
 import { Resend } from 'resend';
 import { NextResponse } from 'next/server';
+import { contactConfig } from '@/config/contact';
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
@@ -8,8 +9,8 @@ export async function POST(request: Request) {
     const { name, email, subject, message } = await request.json();
 
     const { data, error } = await resend.emails.send({
-      from: 'Contact Form <onboarding@resend.dev>',
-      to: ['fgwebdesign0@gmail.com'],
+      from: contactConfig.resendFromEmail,
+      to: [contactConfig.notificationEmail],
       subject: `New Contact Form Submission: ${subject}`,
       replyTo: email,
       text: `

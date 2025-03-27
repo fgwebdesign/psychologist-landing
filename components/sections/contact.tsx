@@ -81,26 +81,56 @@ export default function Contact() {
   const contactInfo = [
     {
       icon: <Phone className="h-5 w-5 text-primary" />,
-      title: "info.phone.title",
-      details: t("info.phone.details"),
-      hasAction: false,
-      action: null,
-    },
-    {
-      icon: <Mail className="h-5 w-5 text-primary" />,
-      title: "info.email.title",
-      details: t("info.email.details"),
-      hasAction: false,
-      action: null,
-    },
-    {
-      icon: <Linkedin className="h-5 w-5 text-primary" />,
-      title: "LinkedIn",
-      details: "Martin Schweizer Arigon",
+      title: t("info.uruguay.title"),
+      details: t("info.uruguay.phone"),
       hasAction: true,
       action: () => {
         if (typeof window !== "undefined") {
-          window.open("https://www.linkedin.com/in/martin-schweizer-arigon/", "_blank")
+          window.open(`https://wa.me/${t("info.uruguay.phone").replace(/\+/g, '')}`, "_blank")
+        }
+      },
+    },
+    {
+      icon: <Phone className="h-5 w-5 text-primary" />,
+      title: t("info.uk.title"),
+      details: t("info.uk.phone"),
+      hasAction: true,
+      action: () => {
+        if (typeof window !== "undefined") {
+          window.open(`https://wa.me/${t("info.uk.phone").replace(/\+/g, '')}`, "_blank")
+        }
+      },
+    },
+    {
+      icon: <Phone className="h-5 w-5 text-primary" />,
+      title: t("info.russia.title"),
+      details: t("info.russia.phone"),
+      hasAction: true,
+      action: () => {
+        if (typeof window !== "undefined") {
+          window.open(`tel:${t("info.russia.phone")}`, "_blank")
+        }
+      },
+    },
+    {
+      icon: <Mail className="h-5 w-5 text-primary" />,
+      title: t("info.email.title"),
+      details: t("info.email.address"),
+      hasAction: true,
+      action: () => {
+        if (typeof window !== "undefined") {
+          window.open(`mailto:${t("info.email.address")}`, "_blank")
+        }
+      },
+    },
+    {
+      icon: <Linkedin className="h-5 w-5 text-primary" />,
+      title: t("info.linkedin.title"),
+      details: t("info.linkedin.name"),
+      hasAction: true,
+      action: () => {
+        if (typeof window !== "undefined") {
+          window.open(t("info.linkedin.url"), "_blank")
         }
       },
     },
@@ -228,9 +258,9 @@ export default function Contact() {
                     <div className="mt-1 transition-colors group-hover:text-primary">{item.icon}</div>
                     <div>
                       <h3 className="font-medium text-foreground/90 group-hover:text-primary transition-colors">
-                        {index === 2 ? item.title : t(item.title)}
+                        {item.details}
                       </h3>
-                      <p className="text-muted-foreground text-sm mt-1">{item.details}</p>
+                      <p className="text-muted-foreground text-sm mt-1">{item.title.includes("Contact.") ? "" : item.details}</p>
                     </div>
                   </CardContent>
                 </Card>
