@@ -50,7 +50,8 @@ export function LanguageSwitcher() {
       </DropdownMenuTrigger>
       <DropdownMenuContent 
         align="end" 
-        className="w-[200px] text-base bg-background/95 backdrop-blur border border-blue-900/10 rounded-xl p-2 animate-in fade-in-0 zoom-in-95 data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=closed]:zoom-out-95 duration-200"
+        className="w-[200px] text-base bg-background/95 backdrop-blur border border-blue-900/10 rounded-xl p-2 animate-in fade-in-0 zoom-in-95 data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=closed]:zoom-out-95 duration-200 z-50"
+        sideOffset={8}
       >
         {languages.map((language) => (
           <DropdownMenuItem

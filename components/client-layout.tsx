@@ -74,11 +74,11 @@ export function ClientLayout({
       }}
     >
       <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={false} forcedTheme="dark">
-        <div className="min-h-screen bg-background text-foreground font-body antialiased dark">
+        <div className="relative min-h-screen bg-background text-foreground font-body antialiased dark overflow-x-hidden">
           {/* Usamos Header siempre, independientemente del estado de mounted */}
           <Header />
           
-          <main>
+          <main className="relative w-full overflow-x-hidden">
             {/* Contenido principal de la aplicación */}
             {children}
           </main>
