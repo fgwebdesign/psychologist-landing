@@ -285,11 +285,17 @@
   "Experience": {
     "title": "Experiencia Profesional",
     "subtitle": "Un recorrido por mi trayectoria profesional en el campo de la psicología clínica",
-    "nhs": {
-      "title": "Centro de Recuperación Integrada de Merton (NHS)",
-      "role": "Psicólogo Clínico",
-      "date": "2023 - 2024",
-      "description": "Parte del equipo de recuperación y apoyo, proporcionando intervenciones psicológicas estructuradas a pacientes y cuidadores. Trabajé en la rehabilitación de pacientes que hacían la transición desde unidades de salud mental de largo plazo a la comunidad, diseñando planes de intervención para facilitar su integración."
+    "nhsSwlstg": {
+      "title": "NHS Community Rehab Team SWLSTG, Londres, Reino Unido",
+      "role": "Psicólogo Principal",
+      "date": "Oct 2024 - Ene 2025",
+      "description": "Establecí el rol de Psicólogo dentro del equipo, creando procesos de derivación, un sistema de lista de espera y recursos para futuros clínicos. Proporcioné intervenciones psicológicas a pacientes en transición desde Unidades de Salud Mental de larga estancia a entornos comunitarios, incluyendo Alojamientos Temporales de Alto Apoyo."
+    },
+    "nhsMerton": {
+      "title": "NHS Merton IRH, Londres, Reino Unido",
+      "role": "Psicólogo",
+      "date": "Jul 2023 - Dic 2024",
+      "description": "Trabajé como parte del equipo de recuperación y apoyo, proporcionando asesoramiento personalizado, educación e intervenciones psicológicas a pacientes y cuidadores a través de citas estructuradas programadas. Me enfoqué en el manejo de casos complejos y agudos, con énfasis en psicosis, logrando una tasa de recuperación de más del 70% mediante intervenciones basadas en evidencia. Facilité sesiones de práctica reflexiva para el equipo de Recuperación y Apoyo de Morden."
     },
     "ippm": {
       "title": "Instituto de Psiquiatría y Psicología de Montevideo",

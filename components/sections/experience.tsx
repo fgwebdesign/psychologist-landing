@@ -67,6 +67,22 @@ export default function Experience() {
 
   const experiences = [
     {
+      title: t("nhsSwlstg.title"),
+      dates: [
+        { role: t("nhsSwlstg.role"), period: t("nhsSwlstg.date") }
+      ],
+      description: t("nhsSwlstg.description"),
+      icon: Building2
+    },
+    {
+      title: t("nhsMerton.title"),
+      dates: [
+        { role: t("nhsMerton.role"), period: t("nhsMerton.date") }
+      ],
+      description: t("nhsMerton.description"),
+      icon: Building2
+    },
+    {
       title: t("ippm.title"),
       dates: [
         { role: t("ippm.role.clinical"), period: t("ippm.date") },
@@ -82,14 +98,6 @@ export default function Experience() {
       ],
       description: t("private.description"),
       icon: Briefcase
-    },
-    {
-      title: t("nhs.title"),
-      dates: [
-        { role: t("nhs.role"), period: t("nhs.date") }
-      ],
-      description: t("nhs.description"),
-      icon: Building2
     },
     {
       title: t("shp.title"),

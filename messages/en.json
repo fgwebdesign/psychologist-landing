@@ -285,11 +285,17 @@
   "Experience": {
     "title": "Professional Experience",
     "subtitle": "A journey through my professional career in clinical psychology",
-    "nhs": {
-      "title": "Merton Integrated Recovery Hub (NHS)",
-      "role": "Clinical Psychologist",
-      "date": "2023 - 2024",
-      "description": "Part of the recovery and support team, providing structured psychological interventions to patients and caregivers. Worked on rehabilitating patients transitioning from long-term mental health units to the community, designing intervention plans to facilitate their integration."
+    "nhsSwlstg": {
+      "title": "NHS Community Rehab Team SWLSTG, London, UK",
+      "role": "Lead Psychologist",
+      "date": "Oct 2024 - Jan 2025",
+      "description": "Established the Psychologist role within the team, creating referral processes, a waiting list system, and resources for future clinicians. Delivered psychological interventions to patients transitioning from long-term Mental Health Wards to community settings, including High Support Temporary Accommodations."
+    },
+    "nhsMerton": {
+      "title": "NHS Merton IRH, London, UK",
+      "role": "Psychologist",
+      "date": "July 2023 - Dec 2024",
+      "description": "Worked as part of the recovery and support team, providing tailored advice, education, and psychological interventions to patients and carers through structured bookable appointments. Focused on managing complex and acute cases, with an emphasis on psychosis, achieving a recovery rate of over 70% through evidence-based interventions. Facilitated reflective practice sessions for the Morden Recovery and Support team."
     },
     "ippm": {
       "title": "Institute of Psychiatry and Psychology of Montevideo",
