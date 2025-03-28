@@ -64,6 +64,7 @@ export default function Services() {
         "business.workshops.items.conflict",
         "business.workshops.items.intelligence",
         "business.workshops.items.team",
+        "business.workshops.items.leadership",
         "business.workshops.items.custom"
       ]
     }
