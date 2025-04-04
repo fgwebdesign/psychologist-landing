@@ -29,7 +29,7 @@
         "text": "Years of Experience"
       },
       "clients": {
-        "number": "500+",
+        "number": "350+",
         "text": "Clients Served"
       },
       "hours": {
@@ -279,7 +279,7 @@
     "description": "As part of my commitment to professional development, I am a full member of the Russian Psychological Society, the International Association of Cognitive Behavioural Therapy (IACBT), and the British Psychological Society (BPS). I am also registered with the Ministry of Health of Uruguay, which certifies my professional qualification in the clinical field."
   },
   "WhatsApp": {
-    "title": "Contact Information",
+    "title": "Direct Contact",
     "uruguay": "Uruguay",
     "uk": "UK"
   },
@@ -299,7 +299,7 @@
       "description": "Worked as part of the recovery and support team, providing tailored advice, education, and psychological interventions to patients and carers through structured bookable appointments."
     },
     "ippm": {
-      "title": "Institute of Psychiatry and Psychology of Montevideo",
+      "title": "Institute of Psychiatry and Psychology of Montevideo, Uruguay",
       "role": {
         "clinical": "Clinical Psychologist for adults",
         "manager": "Clinical Manager"
@@ -313,12 +313,12 @@
       "description": "Online and in-person therapy with patients from South America, China, United Kingdom, South Africa, and USA, adapting therapeutic approaches to diverse cultures."
     },
     "shp": {
-      "title": "Single Homeless Project, London",
+      "title": "Single Homeless Project, London, UK",
       "date": "2023",
       "description": "Psychologist and Psychologically Informed Environment (PIE) Consultant, working with vulnerable populations and developing intervention strategies."
     },
     "tresCruces": {
-      "title": "Tres Cruces Clinical Center, Montevideo",
+      "title": "Tres Cruces Clinical Center, Montevideo, Uruguay",
       "date": "2011 - 2017",
       "description": "Home-based and environmental psychological support for patients, facilitating treatment accessibility and adapting interventions to individual contexts."
     }
@@ -329,18 +329,18 @@
     "downloadButton": "Download PDF",
     "papers": {
       "first": {
-        "title": "Psychological Interventions in the Treatment of Severe Mental Disorders",
+        "title": "Transcranial Magnetic Stimulation for Treatment of Depression Resistant to Pharmacological Treatment",
         "authors": "Martin Schweizer, et al.",
         "date": "2023",
         "journal": "Uruguay Journal of Psychiatry",
-        "abstract": "This article presents a systematic review of the most effective psychological interventions in the treatment of severe mental disorders, with a special focus on the integration of cognitive-behavioral therapy and other therapeutic modalities.",
+        "abstract": "",
         "link": "Publicacion Revista de Psiquiatria Uruguay.pdf"
       }
     }
   },
   "SelfHelp": {
     "title": "Self-Help Guides",
-    "subtitle": "Download free resources to help with common psychological challenges",
+    "subtitle": "Download free multilingual resources (Spanish, English, and Russian) to help with common psychological challenges",
     "downloadButton": "Download PDF",
     "pagination": {
       "prev": "Previous",
@@ -351,42 +351,42 @@
       "anxiety": {
         "title": "Anxiety",
         "description": "Comprehensive guide on anxiety and techniques for effective management",
-        "filename": "Ansiedad.pdf"
+        "filename": "Ansiedad 3 idiomas.docx.pdf"
       },
       "burnout": {
         "title": "Burnout",
         "description": "How to identify and recover from professional burnout syndrome",
-        "filename": "Burnout.pdf"
+        "filename": "Burnout 3 idiomas.docx.pdf"
       },
       "depression": {
         "title": "Depression",
         "description": "Understanding and strategies to cope with depression",
-        "filename": "Depresión.pdf"
+        "filename": "Depresión 3 idiomas.docx.pdf"
       },
       "stressAnxiety": {
         "title": "Stress and Anxiety",
         "description": "Differences between stress and anxiety and how to manage both",
-        "filename": "Estrés Diferencias con la Ansiedad.pdf"
+        "filename": "Estrés, Diferencias con la Ansiedad, Identificación y Manejo 3 idiomas.docx.pdf"
       },
       "sleep": {
         "title": "Sleep Problems",
         "description": "Guide to understanding and overcoming sleep problems and insomnia",
-        "filename": "Problemas de Sueño e Insomnio.pdf"
+        "filename": "Problemas de Sueño e Insomnio 3 idiomas.docx.pdf"
       },
       "ptsd": {
         "title": "Post-Traumatic Stress",
         "description": "Information about post-traumatic stress disorder and its treatment",
-        "filename": "Trastorno de Estrés Postraumático.pdf"
+        "filename": "Trastorno de Estrés Postraumático 3 idiomas.docx.pdf"
       },
       "panic": {
         "title": "Panic Disorder",
         "description": "How to recognize and manage panic attacks",
-        "filename": "Trastorno de Pánico.pdf"
+        "filename": "Trastorno de Pánico 3 idiomas.docx.pdf"
       },
       "ocd": {
         "title": "Obsessive Disorder",
         "description": "Understanding obsessive-compulsive disorder and its treatments",
-        "filename": "Trastorno Obsesivo.pdf"
+        "filename": "Trastorno Obsesivo 3 idiomas.docx.pdf"
       }
     }
   }

@@ -7,7 +7,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Textarea } from "@/components/ui/textarea"
-import { Phone, Mail, Clock, Linkedin, Loader2 } from "lucide-react"
+import { Phone, Mail, Clock, Linkedin, Loader2, MessageCircle } from "lucide-react"
 import { useState, useEffect } from "react"
 import { useToast } from "@/components/ui/use-toast"
 import { cn } from "@/lib/utils"
@@ -80,7 +80,7 @@ export default function Contact() {
 
   const contactInfo = [
     {
-      icon: <Phone className="h-5 w-5 text-primary" />,
+      icon: <MessageCircle className="h-5 w-5 text-green-500" />,
       title: t("info.uruguay.title"),
       details: t("info.uruguay.phone"),
       hasAction: true,
@@ -91,7 +91,7 @@ export default function Contact() {
       },
     },
     {
-      icon: <Phone className="h-5 w-5 text-primary" />,
+      icon: <MessageCircle className="h-5 w-5 text-green-500" />,
       title: t("info.uk.title"),
       details: t("info.uk.phone"),
       hasAction: true,
@@ -120,6 +120,20 @@ export default function Contact() {
       action: () => {
         if (typeof window !== "undefined") {
           window.open(`mailto:${t("info.email.address")}`, "_blank")
+        }
+      },
+    },
+    {
+      icon: <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-5 w-5 text-blue-400">
+        <path d="M21.5 4.5L2.5 9.5 8.5 12.5 12.5 20.5 15.5 12.5 21.5 9.5"></path>
+        <path d="M8.5 12.5L15.5 7.5"></path>
+      </svg>,
+      title: "Telegram",
+      details: "@schweizerpsy",
+      hasAction: true,
+      action: () => {
+        if (typeof window !== "undefined") {
+          window.open("https://t.me/schweizerpsy", "_blank")
         }
       },
     },
@@ -255,12 +269,11 @@ export default function Contact() {
                   onClick={() => handleCardClick(item)}
                 >
                   <CardContent className="p-4 flex items-start space-x-4">
-                    <div className="mt-1 transition-colors group-hover:text-primary">{item.icon}</div>
+                    <div className="mt-1 transition-colors">{item.icon}</div>
                     <div>
                       <h3 className="font-medium text-foreground/90 group-hover:text-primary transition-colors">
                         {item.details}
                       </h3>
-                      <p className="text-muted-foreground text-sm mt-1">{item.title.includes("Contact.") ? "" : item.details}</p>
                     </div>
                   </CardContent>
                 </Card>

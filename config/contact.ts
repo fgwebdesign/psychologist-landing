@@ -1,5 +1,5 @@
 export const contactConfig = {
-  contactEmail: 'contact@schweizerpsychology.com',
-  notificationEmail: 'contact@schweizerpsychology.com',
-  resendFromEmail: 'Contact Form <contact@schweizerpsychology.com>'
+  contactEmail: 'm.c.schweizerarigon@gmail.com',
+  notificationEmail: 'm.c.schweizerarigon@gmail.com',
+  resendFromEmail: 'Contacto <onboarding@resend.dev>'
 } 

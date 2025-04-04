@@ -29,7 +29,7 @@
         "text": "Años de Experiencia"
       },
       "clients": {
-        "number": "500+",
+        "number": "350+",
         "text": "Clientes Atendidos"
       },
       "hours": {
@@ -279,7 +279,7 @@
     }
   },
   "WhatsApp": {
-    "title": "Información de Contacto",
+    "title": "Contacto Directo",
     "uruguay": "Uruguay",
     "uk": "Reino Unido"
   },
@@ -299,7 +299,7 @@
       "description": "Trabajé como parte del equipo de recuperación y apoyo, proporcionando asesoramiento personalizado, educación e intervenciones psicológicas a pacientes y cuidadores a través de citas estructuradas programadas."
     },
     "ippm": {
-      "title": "Instituto de Psiquiatría y Psicología de Montevideo",
+      "title": "Instituto de Psiquiatría y Psicología de Montevideo, Uruguay",
       "role": {
         "clinical": "Psicólogo Clínico para adultos",
         "manager": "Gerente Clínico"
@@ -313,12 +313,12 @@
       "description": "Terapia online y presencial con pacientes de América del Sur, China, Reino Unido, Sudáfrica y EE.UU., adaptando enfoques terapéuticos a diversas culturas."
     },
     "shp": {
-      "title": "Proyecto para Personas sin Hogar, Londres",
+      "title": "Proyecto para Personas sin Hogar, Londres, Reino Unido",
       "date": "2023",
       "description": "Psicólogo y Consultor en Entorno Psicológicamente Informado (PIE), trabajando con poblaciones vulnerables y desarrollando estrategias de intervención."
     },
     "tresCruces": {
-      "title": "Centro Clínico Tres Cruces, Montevideo",
+      "title": "Centro Clínico Tres Cruces, Montevideo, Uruguay",
       "date": "2011 - 2017",
       "description": "Apoyo psicológico domiciliario y en el entorno de los pacientes, facilitando la accesibilidad al tratamiento y adaptando las intervenciones al contexto individual."
     }
@@ -329,18 +329,18 @@
     "downloadButton": "Descargar PDF",
     "papers": {
       "first": {
-        "title": "Intervenciones Psicológicas en el Tratamiento de Trastornos Mentales Graves",
+        "title": "Estimulación magnética transcraneal para tratamiento de la depresión resistente al tratamiento farmacológico",
         "authors": "Martin Schweizer, et al.",
         "date": "2023",
         "journal": "Revista de Psiquiatría del Uruguay",
-        "abstract": "Este artículo presenta una revisión sistemática de las intervenciones psicológicas más efectivas en el tratamiento de trastornos mentales graves, con un enfoque especial en la integración de la terapia cognitivo-conductual y otras modalidades terapéuticas.",
+        "abstract": "",
         "link": "Publicacion Revista de Psiquiatria Uruguay.pdf"
       }
     }
   },
   "SelfHelp": {
     "title": "Guías de Autoayuda",
-    "subtitle": "Descarga recursos gratuitos para ayudar con problemas psicológicos comunes",
+    "subtitle": "Descarga recursos gratuitos trilingües (español, inglés y ruso) para ayudar con problemas psicológicos comunes",
     "downloadButton": "Descargar PDF",
     "pagination": {
       "prev": "Anterior",
@@ -351,42 +351,42 @@
       "anxiety": {
         "title": "Ansiedad",
         "description": "Guía completa sobre la ansiedad y técnicas para su manejo efectivo",
-        "filename": "Ansiedad.pdf"
+        "filename": "Ansiedad 3 idiomas.docx.pdf"
       },
       "burnout": {
         "title": "Burnout",
         "description": "Cómo identificar y recuperarse del síndrome de agotamiento profesional",
-        "filename": "Burnout.pdf"
+        "filename": "Burnout 3 idiomas.docx.pdf"
       },
       "depression": {
         "title": "Depresión",
         "description": "Comprensión y estrategias para afrontar la depresión",
-        "filename": "Depresión.pdf"
+        "filename": "Depresión 3 idiomas.docx.pdf"
       },
       "stressAnxiety": {
         "title": "Estrés y Ansiedad",
         "description": "Diferencias entre estrés y ansiedad y cómo manejar ambos",
-        "filename": "Estrés Diferencias con la Ansiedad.pdf"
+        "filename": "Estrés, Diferencias con la Ansiedad, Identificación y Manejo 3 idiomas.docx.pdf"
       },
       "sleep": {
         "title": "Problemas de Sueño",
         "description": "Guía para entender y superar los problemas de sueño e insomnio",
-        "filename": "Problemas de Sueño e Insomnio.pdf"
+        "filename": "Problemas de Sueño e Insomnio 3 idiomas.docx.pdf"
       },
       "ptsd": {
         "title": "Estrés Postraumático",
         "description": "Información sobre el trastorno de estrés postraumático y su tratamiento",
-        "filename": "Trastorno de Estrés Postraumático.pdf"
+        "filename": "Trastorno de Estrés Postraumático 3 idiomas.docx.pdf"
       },
       "panic": {
         "title": "Trastorno de Pánico",
         "description": "Cómo reconocer y gestionar los ataques de pánico",
-        "filename": "Trastorno de Pánico.pdf"
+        "filename": "Trastorno de Pánico 3 idiomas.docx.pdf"
       },
       "ocd": {
         "title": "Trastorno Obsesivo",
         "description": "Entendiendo el trastorno obsesivo compulsivo y sus tratamientos",
-        "filename": "Trastorno Obsesivo.pdf"
+        "filename": "Trastorno Obsesivo 3 idiomas.docx.pdf"
       }
     }
   }

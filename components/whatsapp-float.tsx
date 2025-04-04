@@ -9,6 +9,8 @@ type ContactInfo = {
   number: string
   country: string
   isWhatsApp: boolean
+  isTelegram?: boolean
+  telegramHandle?: string
 }
 
 export default function WhatsAppFloat() {
@@ -35,12 +37,21 @@ export default function WhatsAppFloat() {
       number: "+7 916 068 8413",
       country: "russia",
       isWhatsApp: false
+    },
+    {
+      number: "@schweizerpsy",
+      country: "telegram",
+      isWhatsApp: false,
+      isTelegram: true,
+      telegramHandle: "schweizerpsy"
     }
   ]
 
   const handleContactClick = (contact: ContactInfo) => {
     if (contact.isWhatsApp) {
       window.open(`https://wa.me/${contact.number.replace(/\+/g, '')}`, "_blank");
+    } else if (contact.isTelegram) {
+      window.open(`https://t.me/${contact.telegramHandle}`, "_blank");
     } else {
       window.open(`tel:${contact.number}`, "_blank");
     }
@@ -81,6 +92,11 @@ export default function WhatsAppFloat() {
                     <span className="flex-shrink-0">
                       {contact.isWhatsApp ? (
                         <MessageCircle className="h-5 w-5 text-green-500" />
+                      ) : contact.isTelegram ? (
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-5 w-5 text-blue-400">
+                          <path d="M21.5 4.5L2.5 9.5 8.5 12.5 12.5 20.5 15.5 12.5 21.5 9.5"></path>
+                          <path d="M8.5 12.5L15.5 7.5"></path>
+                        </svg>
                       ) : (
                         <Phone className="h-5 w-5 text-blue-500" />
                       )}

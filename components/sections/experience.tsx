@@ -67,6 +67,14 @@ export default function Experience() {
 
   const experiences = [
     {
+      title: t("private.title"),
+      dates: [
+        { role: "", period: t("private.date") }
+      ],
+      description: t("private.description"),
+      icon: Briefcase
+    },
+    {
       title: t("nhsSwlstg.title"),
       dates: [
         { role: t("nhsSwlstg.role"), period: t("nhsSwlstg.date") }
@@ -90,15 +98,7 @@ export default function Experience() {
       ],
       description: t("ippm.description"),
       icon: Building2
-    },
-    {
-      title: t("private.title"),
-      dates: [
-        { role: "", period: t("private.date") }
-      ],
-      description: t("private.description"),
-      icon: Briefcase
-    },
+    },  
     {
       title: t("shp.title"),
       dates: [
