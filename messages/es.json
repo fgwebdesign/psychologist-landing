@@ -389,6 +389,38 @@
         "filename": "Trastorno Obsesivo 3 idiomas.docx.pdf"
       }
     }
+  },
+  "Testimonials": {
+    "title": "Testimonios Profesionales",
+    "subtitle": "Descubre lo que otros profesionales de la salud mental tienen que decir sobre mi trabajo y enfoque terapéutico",
+    "previousSlide": "Testimonio anterior",
+    "nextSlide": "Siguiente testimonio",
+    "testimonials": {
+      "1": {
+        "content": "Trabajé con Martin entre octubre de 2024 y enero de 2025. Se unió al equipo de forma temporal y fue el primer psicólogo en el equipo durante un tiempo. Inmediatamente estableció buenas relaciones laborales con sus colegas y se involucró en el desafiante trabajo de rehabilitación comunitaria, construyendo rapport con los usuarios del servicio y evaluando sus necesidades psicológicas. Estableció un proceso de derivaciones para el equipo y proporcionó muchos recursos. Martin es tranquilo y se integra fácilmente en un nuevo equipo. Su conocimiento de la salud mental comunitaria es extenso y ha trabajado en diversos entornos. No dudaría en recomendarlo a otro servicio y estaríamos encantados de darle la bienvenida de nuevo.",
+        "name": "Sarah Gray",
+        "role": "Gerente de Equipo, Rehabilitación Comunitaria",
+        "organization": "South West London and St George's Mental Health NHS Trust"
+      },
+      "2": {
+        "content": "Martin es un terapeuta relajado y accesible que se centra en lograr resultados positivos para personas que experimentan diversas dificultades. Utiliza la creatividad y la individualidad para apoyar a las personas. Martin ha animado a muchas personas a desarrollar habilidades para comprender y superar sus contratiempos por sí mismos, lo que ha llevado a un grado significativo de empoderamiento y al aprendizaje de nuevas habilidades para la vida",
+        "name": "Dra. Emma Harding",
+        "role": "Psicóloga Clínica Consultora y Líder de Psicología",
+        "organization": "Sutton and Cheam IRH SWLSTG NHS Trust"
+      },
+      "3": {
+        "content": "Martin es un terapeuta atento y competente. Trabajamos juntos en un servicio del NHS donde demostró ser capaz de apoyar a clientes que luchaban con ansiedad, estado de ánimo bajo y tenían un historial de trauma. Es un clínico culturalmente competente ya que tiene experiencia variada de todo el mundo",
+        "name": "Harry Kapetanakis",
+        "role": "Psicoterapeuta de Adultos",
+        "organization": "Merton IRH, SWLSTG NHS Trust"
+      },
+      "4": {
+        "content": "Tuve el placer de trabajar junto a Martin durante un año en un equipo comunitario de salud mental muy activo, y quedé constantemente impresionado por su habilidad, profesionalismo y genuina preocupación por las personas con las que trabaja. Aporta una rara combinación de experiencia, eficiencia y compasión a su práctica, lo que lo hace increíblemente efectivo en el apoyo a clientes en situaciones complejas y desafiantes. Tiene un verdadero don para comprender y dar sentido a las experiencias de las personas, y he visto de primera mano cómo su enfoque reflexivo y centrado en la persona puede ayudar a que las personas se sientan escuchadas, comprendidas y empoderadas. También es muy hábil en el trabajo con riesgos y dificultades complejas de salud mental, siempre aportando una presencia tranquila y estable incluso en situaciones de alto estrés. Como colega, es accesible, colaborativo y generoso con su conocimiento, siempre dispuesto a pensar las cosas con otros y ofrecer orientación de una manera que se siente solidaria y respetuosa. También he aprendido mucho de él, no solo sobre enfoques psicológicos, sino sobre cómo realmente crear un espacio para las personas de una manera que se siente respetuosa y empoderadora. Cualquiera que trabaje con Martin, ya sea como cliente o como profesional, estará en manos muy seguras y expertas.",
+        "name": "Dr. Ferose Rahman MD, MRCPsych",
+        "role": "ST6 en Psiquiatría de Adultos",
+        "organization": "SWLSTG NHS Trust"
+      }
+    }
   }
 }
 

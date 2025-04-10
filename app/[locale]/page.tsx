@@ -5,6 +5,7 @@ import Contact from "@/components/sections/contact"
 import Footer from "@/components/sections/footer"
 import ProfessionalMemberships from "@/components/sections/professionalMemberships"
 import Experience from "@/components/sections/experience"
+import { Testimonials } from "@/components/Testimonials"
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Experience />
       <ProfessionalMemberships />
       <Services />
+      <Testimonials />
       <Contact />
       <Footer />
     </main>
