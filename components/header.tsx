@@ -43,7 +43,8 @@ export function Header() {
     { id: 'services', label: t('Navigation.services') },
     { id: 'about', label: t('Navigation.about') },
     { id: 'contact', label: t('Navigation.contact') },
-    { id: 'professional-memberships', label: t('Navigation.memberships') }
+    { id: 'professional-memberships', label: t('Navigation.memberships') },
+    { id: 'testimonials', label: t('Navigation.testimonials') }
   ]
 
   return (

@@ -43,7 +43,7 @@
     "subtitle": "Comprehensive psychological services tailored to your unique needs",
     "forIndividuals": "For Individuals",
     "forCompanies": "For Companies",
-    "locationNote": "All services are provided online. Face to face services for individuals are only provided in Moscow, Russia at the moment. Face to face workshops for companies are provided in Europe and Asia.",
+    "locationNote": "All services are provided online. Face to face workshops for companies are provided in Europe and Asia.",
     "individual": {
       "psychotherapy": {
         "title": "Psychotherapy",
@@ -222,7 +222,8 @@
     "services": "Services",
     "about": "About me",
     "contact": "Contact",
-    "memberships": "Memberships"
+    "memberships": "Memberships",
+    "testimonials": "Testimonials"
   },
   "FAQ": {
     "title": "Frequently Asked Questions",
@@ -242,7 +243,7 @@
       },
       "q4": {
         "question": "Do you offer online sessions?",
-        "answer": "Yes, I provide online therapy for individuals worldwide. In-person sessions are available in Moscow, Russia."
+        "answer": "Yes, I provide online therapy for individuals worldwide."
       },
       "q5": {
         "question": "What happens in the first session?",

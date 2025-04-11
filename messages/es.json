@@ -43,7 +43,7 @@
     "subtitle": "Servicios psicológicos integrales adaptados a tus necesidades únicas",
     "forIndividuals": "Para Individuos",
     "forCompanies": "Para Empresas",
-    "locationNote": "Todos los servicios se proporcionan en línea. Los servicios presenciales para individuos solo se proporcionan en Moscú, Rusia por el momento. Los talleres presenciales para empresas se proporcionan en Europa y Asia.",
+    "locationNote": "Todos los servicios se proporcionan en línea. Los talleres presenciales para empresas se proporcionan en Europa y Asia.",
     "individual": {
       "psychotherapy": {
         "title": "Psicoterapia",
@@ -226,7 +226,8 @@
     "services": "Servicios", 
     "about": "Sobre mi",
     "contact": "Contacto",
-    "memberships": "Membresías"
+    "memberships": "Membresías",
+    "testimonials": "Testimonios"
   },
   "FAQ": {
     "title": "Preguntas Frecuentes",
@@ -246,7 +247,7 @@
       },
       "q4": {
         "question": "¿Ofreces sesiones en línea?",
-        "answer": "Sí, proporciono terapia en línea para personas de todo el mundo. Las sesiones presenciales están disponibles en Moscú, Rusia."
+        "answer": "Sí, proporciono terapia en línea para personas de todo el mundo."
       },
       "q5": {
         "question": "¿Qué sucede en la primera sesión?",

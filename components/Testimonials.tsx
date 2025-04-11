@@ -17,7 +17,7 @@ export function Testimonials() {
   const t = useTranslations("Testimonials");
 
   return (
-    <section className="py-10 sm:py-16 bg-background">
+    <section id="testimonials" className="py-10 sm:py-16 bg-background">
       <div className="container mx-auto px-4 sm:px-8">
         <div className="text-center mb-8">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-3 tracking-tight bg-gradient-to-r from-blue-400 to-blue-600 text-transparent bg-clip-text">
