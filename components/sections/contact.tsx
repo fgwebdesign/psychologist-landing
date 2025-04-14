@@ -115,11 +115,11 @@ export default function Contact() {
     {
       icon: <Mail className="h-5 w-5 text-primary" />,
       title: "Email",
-      details: t("info.email.address"),
+      details: "m.c.schweizerarigon@gmail.com",
       hasAction: true,
       action: () => {
         if (typeof window !== "undefined") {
-          window.open(`mailto:${t("info.email.address")}`, "_blank")
+          window.open(`mailto:m.c.schweizerarigon@gmail.com`, "_blank")
         }
       },
     },
