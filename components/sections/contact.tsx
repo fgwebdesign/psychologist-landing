@@ -2,86 +2,86 @@
 
 import { useTranslations } from "next-intl"
 import { motion } from "framer-motion"
-import { Button } from "@/components/ui/button"
+// import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
-import { Textarea } from "@/components/ui/textarea"
+// import { Input } from "@/components/ui/input"
+// import { Label } from "@/components/ui/label"
+// import { Textarea } from "@/components/ui/textarea"
 import { Phone, Mail, Clock, Linkedin, Loader2, MessageCircle } from "lucide-react"
 import { useState, useEffect } from "react"
-import { useToast } from "@/components/ui/use-toast"
+// import { useToast } from "@/components/ui/use-toast"
 import { cn } from "@/lib/utils"
 
 export default function Contact() {
   const t = useTranslations("Contact")
   const [mounted, setMounted] = useState(false)
-  const { toast } = useToast()
-  const [isSubmitting, setIsSubmitting] = useState(false)
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    subject: "",
-    message: ""
-  })
+  // const { toast } = useToast()
+  // const [isSubmitting, setIsSubmitting] = useState(false)
+  // const [formData, setFormData] = useState({
+  //   name: "",
+  //   email: "",
+  //   subject: "",
+  //   message: ""
+  // })
   
   useEffect(() => {
     setMounted(true)
   }, [])
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault()
-    setIsSubmitting(true)
+  // const handleSubmit = async (e: React.FormEvent) => {
+  //   e.preventDefault()
+  //   setIsSubmitting(true)
 
-    try {
-      const response = await fetch('/api/send', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(formData),
-      })
+  //   try {
+  //     const response = await fetch('/api/send', {
+  //       method: 'POST',
+  //       headers: {
+  //         'Content-Type': 'application/json',
+  //       },
+  //       body: JSON.stringify(formData),
+  //     })
 
-      const data = await response.json()
+  //     const data = await response.json()
 
-      if (response.ok) {
-        toast({
-          title: t("form.success.title"),
-          description: t("form.success.description"),
-          className: "bg-green-50 border-green-200",
-        })
-        // Reset form
-        setFormData({
-          name: "",
-          email: "",
-          subject: "",
-          message: ""
-        })
-      } else {
-        throw new Error(data.error || 'Something went wrong')
-      }
-    } catch (error) {
-      toast({
-        title: t("form.error.title"),
-        description: t("form.error.description"),
-        variant: "destructive",
-      })
-    } finally {
-      setIsSubmitting(false)
-    }
-  }
+  //     if (response.ok) {
+  //       toast({
+  //         title: t("form.success.title"),
+  //         description: t("form.success.description"),
+  //         className: "bg-green-50 border-green-200",
+  //       })
+  //       // Reset form
+  //       setFormData({
+  //         name: "",
+  //         email: "",
+  //         subject: "",
+  //         message: ""
+  //       })
+  //     } else {
+  //       throw new Error(data.error || 'Something went wrong')
+  //     }
+  //   } catch (error) {
+  //     toast({
+  //       title: t("form.error.title"),
+  //       description: t("form.error.description"),
+  //       variant: "destructive",
+  //     })
+  //   } finally {
+  //     setIsSubmitting(false)
+  //   }
+  // }
 
-  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    const { name, value } = e.target
-    setFormData(prev => ({
-      ...prev,
-      [name]: value
-    }))
-  }
+  // const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  //   const { name, value } = e.target
+  //   setFormData(prev => ({
+  //     ...prev,
+  //     [name]: value
+  //   }))
+  // }
 
   const contactInfo = [
     {
       icon: <MessageCircle className="h-5 w-5 text-green-500" />,
-      title: t("info.uruguay.title"),
+      title: "WhatsApp",
       details: t("info.uruguay.phone"),
       hasAction: true,
       action: () => {
@@ -92,7 +92,7 @@ export default function Contact() {
     },
     {
       icon: <MessageCircle className="h-5 w-5 text-green-500" />,
-      title: t("info.uk.title"),
+      title: "WhatsApp",
       details: t("info.uk.phone"),
       hasAction: true,
       action: () => {
@@ -103,7 +103,7 @@ export default function Contact() {
     },
     {
       icon: <Phone className="h-5 w-5 text-primary" />,
-      title: t("info.russia.title"),
+      title: "Phone",
       details: t("info.russia.phone"),
       hasAction: true,
       action: () => {
@@ -114,7 +114,7 @@ export default function Contact() {
     },
     {
       icon: <Mail className="h-5 w-5 text-primary" />,
-      title: t("info.email.title"),
+      title: "Email",
       details: t("info.email.address"),
       hasAction: true,
       action: () => {
@@ -139,7 +139,7 @@ export default function Contact() {
     },
     {
       icon: <Linkedin className="h-5 w-5 text-primary" />,
-      title: t("info.linkedin.title"),
+      title: "LinkedIn",
       details: t("info.linkedin.name"),
       hasAction: true,
       action: () => {
@@ -171,6 +171,37 @@ export default function Contact() {
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">{t("subtitle")}</p>
         </motion.div>
 
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {/* Removed form and replaced with full-width contact info grid */}
+          {contactInfo.map((item, index) => (
+            <motion.div
+              key={index}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: index * 0.1 }}
+            >
+              <Card 
+                className={cn(
+                  "group transition-all duration-200 h-full",
+                  item.hasAction && "cursor-pointer hover:border-primary hover:shadow-md"
+                )}
+                onClick={() => handleCardClick(item)}
+              >
+                <CardContent className="p-5 flex items-start space-x-4">
+                  <div className="mt-1 transition-colors">{item.icon}</div>
+                  <div>
+                    <h3 className="font-medium text-foreground/90 group-hover:text-primary transition-colors">
+                      {item.details}
+                    </h3>
+                  </div>
+                </CardContent>
+              </Card>
+            </motion.div>
+          ))}
+        </div>
+
+        {/* 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <motion.div
             initial={{ opacity: 0, x: -30 }}
@@ -281,6 +312,7 @@ export default function Contact() {
             ))}
           </div>
         </div>
+        */}
       </div>
     </section>
   )
