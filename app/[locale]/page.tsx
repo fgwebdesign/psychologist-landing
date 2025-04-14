@@ -16,7 +16,6 @@ export default function Home() {
       <ProfessionalMemberships />
       <Services />
       <Testimonials />
-      <Contact />
       <Footer />
     </main>
   )
