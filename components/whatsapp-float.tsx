@@ -5,6 +5,27 @@ import { motion, AnimatePresence } from "framer-motion"
 import { useTranslations } from "next-intl"
 import { MessageCircle, X, Phone } from "lucide-react"
 
+// Utility function to detect mobile devices
+const isMobileDevice = () => {
+  if (typeof window === "undefined") return false
+  return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
+}
+
+const formatPhoneNumber = (phone: string) => {
+  return phone
+    .replace(/\s+/g, '') // Remove spaces
+    .replace(/[-()]/g, '') // Remove parentheses and hyphens
+    .replace(/^\+/, '') // Remove leading plus sign
+}
+
+const openWhatsApp = (phone: string) => {
+  const phoneNumber = formatPhoneNumber(phone)
+  const url = isMobileDevice()
+    ? `whatsapp://send?phone=${phoneNumber}`
+    : `https://web.whatsapp.com/send?phone=${phoneNumber}`
+  window.open(url, '_blank')
+}
+
 type ContactInfo = {
   number: string
   country: string
@@ -49,14 +70,14 @@ export default function WhatsAppFloat() {
 
   const handleContactClick = (contact: ContactInfo) => {
     if (contact.isWhatsApp) {
-      window.open(`https://wa.me/${contact.number.replace(/\+/g, '')}`, "_blank");
+      openWhatsApp(contact.number)
     } else if (contact.isTelegram) {
-      window.open(`https://t.me/${contact.telegramHandle}`, "_blank");
+      window.open(`https://t.me/${contact.telegramHandle}`, "_blank")
     } else {
-      window.open(`tel:${contact.number}`, "_blank");
+      window.open(`tel:${contact.number}`, "_blank")
     }
-    setIsOpen(false);
-  };
+    setIsOpen(false)
+  }
 
   if (!isMounted) {
     return null;
