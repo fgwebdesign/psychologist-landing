@@ -12,6 +12,12 @@ import { useState, useEffect } from "react"
 // import { useToast } from "@/components/ui/use-toast"
 import { cn } from "@/lib/utils"
 
+// Utility function to detect mobile devices
+const isMobileDevice = () => {
+  if (typeof window === "undefined") return false
+  return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
+}
+
 export default function Contact() {
   const t = useTranslations("Contact")
   const [mounted, setMounted] = useState(false)
@@ -78,6 +84,21 @@ export default function Contact() {
   //   }))
   // }
 
+  const formatPhoneNumber = (phone: string) => {
+    return phone
+      .replace(/\s+/g, '') // Remove spaces
+      .replace(/[-()]/g, '') // Remove parentheses and hyphens
+      .replace(/^\+/, '') // Remove leading plus sign
+  }
+
+  const openWhatsApp = (phone: string) => {
+    const phoneNumber = formatPhoneNumber(phone)
+    const url = isMobileDevice()
+      ? `whatsapp://send?phone=${phoneNumber}`
+      : `https://web.whatsapp.com/send?phone=${phoneNumber}`
+    window.open(url, '_blank')
+  }
+
   const contactInfo = [
     {
       icon: <MessageCircle className="h-5 w-5 text-green-500" />,
@@ -86,7 +107,7 @@ export default function Contact() {
       hasAction: true,
       action: () => {
         if (typeof window !== "undefined") {
-          window.open(`https://wa.me/${t("info.uruguay.phone").replace(/\+/g, '')}`, "_blank")
+          openWhatsApp(t("info.uruguay.phone"))
         }
       },
     },
@@ -97,7 +118,7 @@ export default function Contact() {
       hasAction: true,
       action: () => {
         if (typeof window !== "undefined") {
-          window.open(`https://wa.me/${t("info.uk.phone").replace(/\+/g, '')}`, "_blank")
+          openWhatsApp(t("info.uk.phone"))
         }
       },
     },
