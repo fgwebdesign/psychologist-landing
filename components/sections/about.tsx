@@ -49,7 +49,7 @@ export default function About() {
             <div className="relative w-full max-w-md mx-auto aspect-[4/5] rounded-2xl overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-b from-blue-500/10 to-transparent rounded-2xl z-0" />
               <Image
-                src="/martin.png"
+                src="/images/martinperfil.jpeg"
                 alt="Martin Schweizer - Clinical Psychologist"
                 fill
                 className="object-cover object-[center_35%] z-10"

@@ -54,18 +54,32 @@ export function Header() {
         {isHomePage ? (
           <button 
             onClick={() => scrollToSection('hero')} 
-            className="flex items-center gap-1 font-heading font-semibold text-xl md:text-2xl border-0 bg-transparent cursor-pointer"
+            className="flex items-center gap-3 border-0 bg-transparent cursor-pointer"
           >
-            <span className="inline font-light text-blue-400 tracking-tight">Schweizer</span> 
-            <span className="text-white tracking-tight">Psychology</span>
+            <img 
+              src="/images/logomartin2.png" 
+              alt="Schweizer Psychology Logo" 
+              className="h-14 md:h-16 w-auto"
+            />
+            <div className="hidden md:flex items-center gap-1 font-heading font-semibold text-xl md:text-2xl">
+              <span className="inline font-light text-blue-400 tracking-tight">Schweizer</span> 
+              <span className="text-white tracking-tight">Psychology</span>
+            </div>
           </button>
         ) : (
           <Link 
             href={getLocalePath('/')}
-            className="flex items-center gap-1 font-heading font-semibold text-xl md:text-2xl"
+            className="flex items-center gap-3"
           >
-            <span className="inline font-light text-blue-400 tracking-tight">Schweizer</span> 
-            <span className="text-white tracking-tight">Psychology</span>
+            <img 
+              src="/images/logomartin.png" 
+              alt="Schweizer Psychology Logo" 
+              className="h-14 md:h-16 w-auto"
+            />
+            <div className="hidden md:flex items-center gap-1 font-heading font-semibold text-xl md:text-2xl">
+              <span className="inline font-light text-blue-400 tracking-tight">Schweizer</span> 
+              <span className="text-white tracking-tight">Psychology</span>
+            </div>
           </Link>
         )}
 
